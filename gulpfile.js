@@ -17,7 +17,7 @@ var BrowserSync = require('laravel-elixir-browsersync');
 
  elixir(mix => {
     mix.browserSync({
-        proxy: 'earlyman-ecard.test'
+        proxy: 'earlyman-gen.test'
     });
 });
 
