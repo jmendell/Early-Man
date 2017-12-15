@@ -15,11 +15,11 @@ var BrowserSync = require('laravel-elixir-browsersync');
  |
  */
 
- elixir(mix => {
-    mix.browserSync({
-        proxy: 'earlyman-gen.test'
-    });
-});
+//  elixir(mix => {
+//     mix.browserSync({
+//         proxy: 'earlyman-gen.test'
+//     });
+// });
 
  //Compliling Sass
 elixir(mix => {

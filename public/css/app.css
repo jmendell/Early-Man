@@ -3251,7 +3251,6 @@ img {
   text-transform: uppercase;
   font-size: 1em;
   letter-spacing: 1px;
-  -webkit-transition: .5s;
   transition: .5s;
   text-decoration: none;
   border: none;
@@ -3324,7 +3323,6 @@ input[type="checkbox"] {
 input[type="checkbox"]:before {
   content: '';
   display: block;
-  -webkit-transition: .2s;
   transition: .2s;
   box-sizing: content-box;
   z-index: 2;
@@ -3340,7 +3338,6 @@ input[type="checkbox"]:before {
 input[type="checkbox"]:after {
   content: '';
   display: block;
-  -webkit-transition: .2s;
   transition: .2s;
   background: #fff;
   height: 1rem;
@@ -3381,6 +3378,8 @@ input[type="submit"]:disabled {
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-flow: row;
   margin-bottom: 25px;
 }
@@ -3828,7 +3827,6 @@ section.choose .card-item .info {
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  -webkit-transition: .5s;
   transition: .5s;
   padding: 15px;
   text-align: center;
@@ -3924,7 +3922,6 @@ section.create .progress {
 }
 
 section.create .progress .progress-inner {
-  -webkit-transition: .5s;
   transition: .5s;
   background: #0D2842;
   height: 100%;

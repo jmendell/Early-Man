@@ -5,7 +5,7 @@
 	<div class="background-container">
 		<figure class="background">
 			<img src="/images/loader.png" class="responsive"
-			alt="" data-src='{"m":"/images/bg-mobile.jpg","d":"/images/palette-bg.png"}'
+			alt="" data-src='{"m":"/images/bg-mobile.jpg","d":"/images/bg.jpg"}'
 			/>
 			<img src="/images/loader.png" alt="background">
 		</figure>
