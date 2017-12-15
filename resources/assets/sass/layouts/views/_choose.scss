@@ -1,0 +1,53 @@
+section.choose{
+	padding:200px 0 50px 0;
+	max-width:$desktop-large-inner;
+	margin:0 auto;
+	@include media($tablet){
+		padding:100px 0;
+	}
+	h1{
+		margin-bottom:50px;
+		font-size:2.5em;
+		@include media($mobile){
+			margin-bottom:25px;
+		}
+	}
+	.card-item{
+		display:block;
+		width:25%;
+		float:left;
+		margin-bottom:25px;
+		padding:0 15px;
+		@include media($tablet){
+			width:50%;
+		}
+		@include media($mobile){
+			width:100%;
+			float:none;
+		}
+		&:hover{
+			.info{
+				opacity:1;
+			}
+		}
+		.card-inner{
+			position:relative;
+		}
+		.info{
+			opacity:0;
+			background:$color-brand-fade;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			transition:.5s;
+			padding:15px;
+			text-align:center;
+			@include size(100%);
+			@include position(absolute, 50% null null 50%);
+			@include transform(translateY(-50%) translateX(-50%));
+		}
+		img{
+			display:block;
+		}
+	}
+}

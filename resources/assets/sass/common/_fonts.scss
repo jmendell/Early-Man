@@ -1,0 +1,41 @@
+$primary:'Trajan Pro';
+$thin:100;
+$lite:300;
+$regular:400;
+$bold:700;
+
+$small:.7em;
+$title:1.2em;
+$big:1.8em;
+
+body{
+	font-family:$primary;
+	font-weight:$lite;
+}
+
+.title{
+	color:$color-white;
+	font-size:3em;
+	font-weight:300;
+	@include media($mobile){
+		font-size:2em;
+	}
+}
+
+.section-title{
+	color:$color-white;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-size:1.7em;
+	font-weight:300;
+}
+
+.text-glow{
+	text-shadow:0 0 2em $color-white,0 0 2em $color-white,0 0 2em $color-white;
+}
+
+.text-glow-hover{
+	&:hover{
+		text-shadow:0 0 2em $color-white,0 0 2em $color-white,0 0 2em $color-white;
+	}
+}

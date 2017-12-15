@@ -1,0 +1,21 @@
+{
+  "name": "shack-ecard",
+  "version": "0.0.0",
+  "authors": [
+    "Tyler Morian <tyler@sandovaldesign.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.7.0",
+    "neat": "~1.8.0",
+    "bourbon": "~4.2.7",
+    "js-cookie": "~2.1.3"
+  }
+}

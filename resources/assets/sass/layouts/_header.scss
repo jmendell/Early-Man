@@ -1,0 +1,10 @@
+header{
+	padding:25px 0;
+	text-align:center;
+	.logo{
+		max-width:250px;
+		@include media($mobile){
+			max-width:215px;
+		}
+	}
+}

@@ -1,0 +1,51 @@
+#legal{
+	display:none;
+	&.active{
+		@include media($mobile){
+			z-index:10;
+		}
+	}
+	.content{
+		z-index:2;
+		max-width:650px;
+		text-align:center;
+		@include position(fixed, 45% null null 50%);
+		@include transform(translateY(-50%) translateX(-50%));
+		@include media($mobile){
+			max-width:80vw;
+		}
+	}
+	.row{
+		margin-bottom:10px;
+	}
+	.logos{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.logo{
+		flex:1;
+		margin:0 25px;
+		max-width:200px;
+		max-height:90px;
+	}
+	.rating{
+		max-height:40px;
+	}
+	.legal-links{
+		list-style:none;
+		padding:0;
+		li{
+			display:inline-block;
+			margin:0 10px;
+		}
+		a{
+			color:$color-white;
+			font-size:.8em;
+		}
+	}
+	.copyright{
+		color:$color-white;
+		font-size:.8em;
+	}
+}

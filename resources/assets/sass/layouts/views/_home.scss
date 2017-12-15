@@ -1,0 +1,30 @@
+section.home{
+	max-width:$desktop-large-inner;
+	padding:100px 0 50px 0;
+	margin:0 auto;
+	.intro{
+		display:block;
+		margin:0 auto 25px auto;
+	}
+	.content-container{
+		display:flex;
+		align-items:center;
+		@include media($tablet){
+			display:block;
+		}
+	}
+	.col{
+		width:50%;
+		@include media($desktop){
+			padding:0 25px;
+		}
+		@include media($tablet){
+			width:100%;
+		}
+		&:first-child{
+			@include media($tablet){
+				margin-bottom:25px;
+			}
+		}
+	}
+}
