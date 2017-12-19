@@ -1,6 +1,6 @@
 .cta-button, input[type="submit"]{
 	display:inline-block;
-	background:$color-brand;
+	background:rgba(97, 103, 124, .9);
 	padding:0.8em 4em 0.6em 4em;
 	color:$color-white;
 	text-transform:uppercase;
@@ -8,8 +8,9 @@
 	letter-spacing:1px;
 	transition:.5s;
 	text-decoration:none;
-	// border:2px solid $color-white;
-	border:none;
+	border:2px solid $color-white;
+	cursor:pointer;
+	font-family:$secondary;
 	&:hover{
 		color:$color-brand;
 		background:$color-white-fade;
@@ -18,6 +19,6 @@
 		background-color:$color-gold;
 		border:none;
 		padding:0.8em 3em 0.6em 3em;
-		font-size:.9em;
+		font-size:.7em;
 	}
 }

@@ -1,6 +1,6 @@
 section.home{
 	max-width:$desktop-large-inner;
-	padding:100px 0 50px 0;
+	padding-top:5%;
 	margin:0 auto;
 	.intro{
 		display:block;
@@ -9,6 +9,46 @@ section.home{
 	.content-container{
 		display:flex;
 		align-items:center;
+		justify-content: center;
+		flex-direction: column;
+		.title-content{
+			align-items:center;
+			.title{
+				.logo{
+					width: 370px;
+				}
+			}
+		}
+		.content{
+			text-align: center;
+			.cards{
+				margin:10px 0;
+				width:70%;
+			}
+			.tagline{
+				font-size:2.5rem;
+				color:$color-white;
+				width:75%;
+				margin:0 auto;
+				margin-bottom:25px;
+				letter-spacing:1px;
+			}
+			.get-started{
+				background-size:contain;
+				background-repeat: no-repeat;
+				position: relative;
+				display:flex;
+				align-items:center;
+				justify-content: center;
+				width: 175px;
+			    height: 50px;
+			    margin: 0 auto;
+			    .home-btn-text{
+			    	position:relative;
+			    	color:$color-white;
+			    }
+			}
+		}
 		@include media($tablet){
 			display:block;
 		}

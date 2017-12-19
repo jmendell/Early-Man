@@ -1,4 +1,12 @@
-$primary:'Trajan Pro';
+@font-face{
+	font-family: 'EarlyMan-Regular';
+	src: url('/fonts/EarlyMan-Regular.otf');
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');//Open Sans
+
+
+$primary:'EarlyMan-Regular';
+$secondary: 'Open Sans';
 $thin:100;
 $lite:300;
 $regular:400;
@@ -11,6 +19,7 @@ $big:1.8em;
 body{
 	font-family:$primary;
 	font-weight:$lite;
+	font-size:16px;
 }
 
 .title{
@@ -38,4 +47,8 @@ body{
 	&:hover{
 		text-shadow:0 0 2em $color-white,0 0 2em $color-white,0 0 2em $color-white;
 	}
+}
+
+.uppercase{
+	text-transform: uppercase;
 }

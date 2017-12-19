@@ -5,7 +5,7 @@
 	<div class="background-container">
 		<figure class="background">
 			<img src="/images/loader.png" class="responsive"
-			alt="" data-src='{"m":"/images/bg-mobile.jpg","d":"/images/bg.jpg"}'
+			alt="" data-src='{"m":"/images/earlyman-bg-mobile.png","d":"/images/earlyman-bg.png"}'
 			/>
 			<img src="/images/loader.png" alt="background">
 		</figure>
@@ -13,12 +13,19 @@
 	<div class="dynamic-content">
 		<section class="home">
 			<div class="content-container">
-				<div class="col center">
-					<img src="/images/intro-cluster.png" class="intro" alt="">
-					<a href="choose" class="cta-button ajax-load">Get Started</a>
+				<div class="title-content">
+					<div class="title">
+						<img src="/images/title-treatment.png" alt="logo" class="logo">
+					</div>
 				</div>
-				<div class="col center">
-					<img src="/images/cards-fanned.png" alt="">
+				<div class="content">
+					<img src="/images/cards.png" alt="cards" class="cards">
+					<h1 class="tagline uppercase">Send A holiday card from this stone age</h1>
+					<a href="choose" class="home-button-link ajax-load">
+						<figure class="get-started" style="background-image:url('/images/btn-option-1.png');">
+							<span class="home-btn-text">Get Started</span>
+						</figure>
+					</a>
 				</div>
 			</div>
 		</section>

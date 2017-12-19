@@ -15,9 +15,13 @@ body{
 	margin:0;
 	background:$color-gray-bg;
 	background-color:#09121f;
+	height:100vh;
 	@include media($mobile){
 		overflow-x:hidden;
 		height:auto;
+	}
+	&.home{
+		height: 100vh;
 	}
 }
 
@@ -51,7 +55,7 @@ img{
     height: 100%;
     margin: 0;
     margin-left:-1050px;
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
     background-position:top center;
     min-height:100vh;
@@ -113,9 +117,14 @@ img{
 	width:90vw;
 	margin:0 auto;
 	max-width:$desktop-large-inner;
+	z-index:2;
 	@include clearfix;
 }
 
 .warn{
 	color:#f00;
+}
+
+#row::-webkit-scrollbar-thumb{
+	background:red;
 }

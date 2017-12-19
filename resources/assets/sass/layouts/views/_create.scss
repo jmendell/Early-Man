@@ -12,8 +12,20 @@ section.create{
 	}
 	#reset-image{
 		font-size:0.9em;
-		padding:0.7em 1em 0.5em 1em;
+		padding:0;
 		@include position(absolute, -65px null null 0);
+	    .back-bg{
+	    	position:relative;
+		    background-size: contain;
+		    width: 125px;
+		    height:40px;
+		    background-repeat: no-repeat;
+		    span{
+		    	@include position(absolute, 45% null null 60%);
+		    	@include transform(translateY(-50%) translateX(-50%));
+		    	color:$color-white;
+		    }
+	    }
 	}
 	.canvas-container{
 		margin:0 auto;
@@ -24,6 +36,7 @@ section.create{
 	}
 	.field-group{
 		margin-bottom:15px;
+		letter-spacing:1px;
 		&:last-child{
 			margin-bottom:25px;
 		}
@@ -57,10 +70,10 @@ section.create{
 		}
 	}
 	textarea{
-		font-family:$primary;
+		font-family:$secondary;
 		color:$color-white;
 		border:1px solid $color-white;
-		background:rgba(255,255,255,.3);
+		background:rgba(97, 103, 124, .3);
 		min-height:150px;
 	}
 	.counter{

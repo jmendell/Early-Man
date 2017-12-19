@@ -1,6 +1,17 @@
 <section class="choose loading">
-	<h1 class="title center">Choose a Card to personalize</h1>
-	<div class="row">
+	<div class="mammoth-container">
+		<img src="/images/left-mammoth.png" alt="mammoth" class="mammoth">
+		<img src="/images/right-mammoth.png" alt="mammoth" class="mammoth">
+	</div>
+	<div class="title-container">
+		<img src="/images/title-treatment.png" alt="logo" class="choose-logo">
+		<div class="title-content">
+			<img src="/images/hiroglyphs-left.png" alt="hyroglyphs" class="title-image-left">
+			<h1 class="title center">Choose a fossil to customize</h1>
+			<img src="/images/hiroglyphs-right.png" alt="hyroglyphs" class="title-image-right">
+		</div>
+	</div>
+	<div class="row" id="row">
 		<a href="create" class="card-item ajax-load app-init" data-design="1">
 			<div class="card-inner">
 				<div class="info">

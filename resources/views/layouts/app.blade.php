@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Earlyman Ecard Generator</title>
+	<title>Early Man Ecard Generator</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	<meta name="GOOGLEBOT" content="index, follow" />
 	<meta name="author" content="Lionsgate" />
 	<meta name="copyright" content="Lionsgate" />
 	<!-- for Facebook -->          
-	<meta property="og:title" content="THE SHACK - Ecard Generator - Movie In Theaters March 2017" />
+	<meta property="og:title" content="Early Man - Ecard Generator" />
 	<meta property="og:type" content="video.movie" />
 	<meta property="og:image" content="http://www.ecard.theshack.movie/images/share-image.jpg" />
-	<meta property="og:url" content="http://www.theshack.movie/" />
-	<meta property="og:description" content="Based on the New York Times best-selling novel, The Shack takes us on a father’s uplifting spiritual journey. In theaters March 2017" />
+	<meta property="og:url" content="https://earlymanmovie.com/" />
+	<meta property="og:description" content="" />
 	<!-- for Twitter -->          
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="THE SHACK - Ecard Generator - Movie In Theaters March 2017" />
+	<meta name="twitter:title" content="Early Man - Ecard Generator" />
 	<meta name="twitter:site" content="http://www.ecard.theshack.movie/">
 	<meta name="twitter:description" content="Based on the New York Times best-selling novel, The Shack takes us on a father’s uplifting spiritual journey. In theaters March 2017" />
 	<meta name="twitter:image" content="http://www.ecard.theshack.movie/images/share-image.jpg" />
-	<title>THE SHACK &#8211; Official Movie Site &#8211; In Theaters March 2017 &#8211; Based on the New York Times best-selling novel, The Shack takes us on a father’s uplifting spiritual journey. In theaters March 2017</title>
+	<title>Early Man</title>
 	<link rel="canonical" href="ecard.theshack.movie">
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -56,9 +56,6 @@
 </head>
 <body class="@yield('bodyClass')">
 	<main id="main">
-		<header>
-			<img src="/images/logo.png" alt="title cluster" class="logo">
-		</header>
 
 		@yield('content')
 
@@ -102,7 +99,10 @@
 		</div>
 	</section>
 	<footer>
-		<a href="#" id="legal-button">Legal</a>
+		<div class="footer-container">
+			<a href="#" id="legal-button">Legal</a>
+			<img src="/images/characters.png" alt="" class="character-cluster">
+		</div>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="/js/lib/fabric.min.js"></script>

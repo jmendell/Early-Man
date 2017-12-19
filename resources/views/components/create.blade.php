@@ -1,6 +1,10 @@
 <section class="create">
 	<div class="row">
-		<a href="/choose" class="cta-button ajax-load" id="reset-image">Go Back</a>
+		<a href="/choose" class="ajax-load" id="reset-image">
+			<figure class="back-bg" style="background-image:url('/images/back-btn.png');">
+				<span class="go-back">Back</span>
+			</figure>
+		</a>
 		<div class="col-6">
 			<canvas id="c"></canvas>
 		</div>
@@ -15,7 +19,7 @@ Love,
 Me</textarea>
 				<p class="counter">Characters Remaining: <span id="charCount">150</span></p>
 				</div>
-				<input type="submit" id="finalize-creation" value="Looks Good">
+				<input type="submit" id="finalize-creation" value="See Your Card">
 				{{ csrf_field() }}
 			</div>
 			<div class="progress-section">

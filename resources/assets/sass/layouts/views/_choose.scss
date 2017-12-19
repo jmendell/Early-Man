@@ -1,16 +1,53 @@
 section.choose{
-	padding:200px 0 50px 0;
+	padding-top: 4%;
 	max-width:$desktop-large-inner;
 	margin:0 auto;
 	@include media($tablet){
 		padding:100px 0;
 	}
-	h1{
-		margin-bottom:50px;
-		font-size:2.5em;
-		@include media($mobile){
-			margin-bottom:25px;
+	.mammoth-container{
+		display: flex;
+		position:absolute;
+		width:100%;
+		left:0;
+		bottom:0;
+		justify-content: space-between;
+		z-index: -1;
+		.mammoth{
+			width:400px;
+			height:100%;
 		}
+	}
+	.title-container{
+		margin-bottom:50px;
+		text-align: center;
+		.choose-logo{
+			width:300px;
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+		.title-content{
+			display: flex;
+			justify-content: center;
+			align-items:center;
+			h1{
+				font-size:1.5rem;
+				margin:0 10px;
+				@include media($mobile){
+					margin-bottom:25px;
+				}
+			}
+			img{
+				height:100%;
+			}
+		}
+	}
+	.row{
+		width:75vw;
+		margin:0 auto;
+		position:relative;
+		overflow-y: scroll;
+		height:500px;
 	}
 	.card-item{
 		display:block;
