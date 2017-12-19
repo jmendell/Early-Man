@@ -3955,7 +3955,6 @@ section.choose .title-container .title-content img {
 section.choose .row {
   margin: 0 auto;
   position: relative;
-  overflow-y: scroll;
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
