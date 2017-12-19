@@ -14,7 +14,7 @@ body{
 	padding:0;
 	margin:0;
 	background:$color-gray-bg;
-	background-color:#09121f;
+	background-color:#AB0003;
 	height:100vh;
 	@include media($mobile){
 		overflow-x:hidden;
@@ -50,12 +50,12 @@ img{
 .background{
 	position:absolute;
 	top:0;
-	left:50%;
-    width: 2100px;
+	// left:50%;
+    width: 100%;
     height: 100%;
     margin: 0;
-    margin-left:-1050px;
-    background-size:contain;
+    // margin-left:-1050px;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position:top center;
     min-height:100vh;
