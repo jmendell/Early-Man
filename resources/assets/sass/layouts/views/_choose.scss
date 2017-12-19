@@ -47,14 +47,23 @@ section.choose{
 		margin:0 auto;
 		position:relative;
 		overflow-y: scroll;
-		height:500px;
+		height:450px;
+		display: flex;
+		flex-wrap:wrap;
+		justify-content: center;
+	}
+	.card-container{
+	    height: 275px;
+	    width: 275px;
+	    background-repeat: no-repeat;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    position:relative;
 	}
 	.card-item{
-		display:block;
-		width:25%;
-		float:left;
-		margin-bottom:25px;
-		padding:0 15px;
+		width:80%;
+		@include position(absolute, 50% null null 50%);
+		@include transform(translateY(-50%) translateX(-50%));
 		@include media($tablet){
 			width:50%;
 		}

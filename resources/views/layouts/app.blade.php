@@ -13,12 +13,12 @@
 	<meta property="og:type" content="video.movie" />
 	<meta property="og:image" content="http://www.ecard.theshack.movie/images/share-image.jpg" />
 	<meta property="og:url" content="https://earlymanmovie.com/" />
-	<meta property="og:description" content="" />
+	<meta property="og:description" content="Early Man - Ecard Generator" />
 	<!-- for Twitter -->          
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Early Man - Ecard Generator" />
 	<meta name="twitter:site" content="http://www.ecard.theshack.movie/">
-	<meta name="twitter:description" content="Based on the New York Times best-selling novel, The Shack takes us on a father’s uplifting spiritual journey. In theaters March 2017" />
+	<meta name="twitter:description" content="Early Man Ecard Generator" />
 	<meta name="twitter:image" content="http://www.ecard.theshack.movie/images/share-image.jpg" />
 	<title>Early Man</title>
 	<link rel="canonical" href="ecard.theshack.movie">
@@ -94,7 +94,7 @@
 					<a href="http://www.lionsgate.com/corporate/terms/">Terms Of Use</a>
 				</li>
 			</ul>
-			<p class="copyright">MOTION PICTURE ARTWORK © 2016 SUMMIT ENTERTAINMENT LLC. ALL RIGHTS RESERVED.</p>
+			<p class="copyright">MOTION PICTURE ARTWORK © 2017 SUMMIT ENTERTAINMENT LLC. ALL RIGHTS RESERVED.</p>
 		</div>
 	</section>
 	<footer>

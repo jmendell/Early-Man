@@ -8,11 +8,11 @@ $app.init = function () {
 	$app.canvasHeight = 900,
 	$app.canvasWidth = 900,
 	$app.topOffset = 238,
-	$app.maxChars = 150,
+	$app.maxChars = 50,
 	$app.design = $('body').data('design'),
 	$app.text = new fabric.Textbox('', {
-		fontSize: 30,
-		fontFamily:"Trajan Pro"
+		fontSize: 36,
+		fontFamily:"Open Sans"
 	});
 	$app.card = executeFunctionByName('cards.card' + $app.design, $app);
 	$app.placeholder = $('#content-input').val(),
@@ -164,23 +164,23 @@ $app.cards = {
 		$app.text.width = 400;
 		$app.text.top = 400;
 		$app.text.left = 50;
-		$app.text.fill = "#fff";
+		$app.text.fill = "#000";
 		$app.text.textAlign = "left";
 	},
 	card2 : function () {
 		$app.baseUrl = "/images/cards/card-2.jpg";
-		$app.text.width = 800;
-		$app.text.top = 300;
-		$app.text.left = 50;
+		$app.text.width = 350;
+		$app.text.top = 50;
+		$app.text.left = 25;
 		$app.text.fill = "#0D2842";
-		$app.text.textAlign = "center";
+		$app.text.textAlign = "left";
 	},
 	card3 : function () {
 		$app.baseUrl = "/images/cards/card-3.jpg";
 		$app.text.width = 850;
-		$app.text.top = 675;
-		$app.text.left = 50;
-		$app.text.fill = "#fff";
+		$app.text.top = 725;
+		$app.text.left = 500;
+		$app.text.fill = "#000";
 		$app.text.textAlign = "left";
 	},
 	card4 : function () {

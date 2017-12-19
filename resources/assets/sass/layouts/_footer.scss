@@ -28,8 +28,16 @@ footer{
 }
 
 //No footer characters
-body.create, body.presentation, body.choose{
+body.create, body.presentation{
 	footer{
+		.character-cluster{
+			display:none;
+		}
+	}
+}
+
+body.choose{
+	@media (max-height: 850px){
 		.character-cluster{
 			display:none;
 		}

@@ -52,16 +52,17 @@ img{
 	top:0;
 	// left:50%;
     width: 100%;
-    height: 100%;
+    // height: 100%;
     margin: 0;
     // margin-left:-1050px;
     background-size:cover;
     background-repeat: no-repeat;
     background-position:top center;
-    min-height:100vh;
+    height:100vh;
+    min-height:850px;
     @include media($tablet){
     	width:100%;
-    	margin-left:-50%;
+    	// margin-left:-50%;
     }
     @include media($mobile){
     	max-height:1105px;

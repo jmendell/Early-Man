@@ -9,9 +9,9 @@
 				};
 
 				var socialProps = {};
-					socialProps.title = "The Shack";
-					socialProps.description = "The Shack Movie";
-					socialProps.url = "shack-meme.dev";
+					socialProps.title = "Early Man";
+					socialProps.description = "Early Man Movie";
+					socialProps.url = "earlyman-gen.test";
 
 				var _o = {},
 					$shareUrls = null
@@ -39,7 +39,7 @@
 						twShareUrl += 'https://twitter.com/intent/tweet?';
 						//text
 						twShareUrl += 'text=';
-						twShareUrl += encodeURIComponent('Check out my Ecard from #theshackmovie in theaters March 3rd');
+						twShareUrl += encodeURIComponent('Check out my Ecard from the Early Man Movie');
 						//home url
 						twShareUrl += '&url=';
 						twShareUrl += encodeURIComponent(url);

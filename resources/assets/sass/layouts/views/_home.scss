@@ -43,6 +43,7 @@ section.home{
 				width: 175px;
 			    height: 50px;
 			    margin: 0 auto;
+			    z-index:1;
 			    .home-btn-text{
 			    	position:relative;
 			    	color:$color-white;

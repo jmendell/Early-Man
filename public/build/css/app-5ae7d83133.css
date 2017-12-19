@@ -3158,18 +3158,17 @@ img {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 850px;
 }
 
 @media screen and (max-width: 900px) {
   .background {
     width: 100%;
-    margin-left: -50%;
   }
 }
 
@@ -3264,13 +3263,13 @@ img {
 
 .cta-button, input[type="submit"] {
   display: inline-block;
-  background: rgba(97, 103, 124, 0.9);
+  background: rgba(97, 103, 124, 0.8);
   padding: 0.8em 4em 0.6em 4em;
   color: #fff;
   text-transform: uppercase;
   font-size: 1em;
   letter-spacing: 1px;
-  transition: .5s;
+  transition: .3s;
   text-decoration: none;
   border: 2px solid #fff;
   cursor: pointer;
@@ -3278,15 +3277,32 @@ img {
 }
 
 .cta-button:hover, input[type="submit"]:hover {
-  color: #0D2842;
-  background: rgba(255, 255, 255, 0.6);
+  background: #61677c;
 }
 
 .cta-button.alt, input[type="submit"].alt {
-  background-color: #AB7B10;
   border: none;
-  padding: 0.8em 3em 0.6em 3em;
   font-size: .7em;
+  background-color: transparent;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.button-container {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 155px;
+  height: 50px;
+}
+
+.button-container:hover .alt {
+  color: #F3A638;
 }
 
 fieldset {
@@ -3763,8 +3779,14 @@ footer .footer-container .character-cluster {
   margin: 0 auto;
 }
 
-body.create footer .character-cluster, body.presentation footer .character-cluster, body.choose footer .character-cluster {
+body.create footer .character-cluster, body.presentation footer .character-cluster {
   display: none;
+}
+
+@media (max-height: 850px) {
+  body.choose .character-cluster {
+    display: none;
+  }
 }
 
 section.home {
@@ -3830,6 +3852,7 @@ section.home .content-container .content .get-started {
   width: 175px;
   height: 50px;
   margin: 0 auto;
+  z-index: 1;
 }
 
 section.home .content-container .content .get-started .home-btn-text {
@@ -3934,15 +3957,30 @@ section.choose .row {
   margin: 0 auto;
   position: relative;
   overflow-y: scroll;
-  height: 500px;
+  height: 450px;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+section.choose .card-container {
+  height: 275px;
+  width: 275px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
 }
 
 section.choose .card-item {
-  display: block;
-  width: 25%;
-  float: left;
-  margin-bottom: 25px;
-  padding: 0 15px;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
 }
 
 @media screen and (max-width: 900px) {
@@ -4043,6 +4081,19 @@ section.create h3 {
   margin-bottom: 10px;
 }
 
+section.create .center-text {
+  text-align: center;
+}
+
+section.create .center-text span {
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+section.create .character-amount {
+  font-size: .9rem;
+}
+
 section.create .field-group {
   margin-bottom: 15px;
   letter-spacing: 1px;
@@ -4079,6 +4130,7 @@ section.create .progress-section {
 
 section.create .progress-section h4 {
   margin-bottom: 10px;
+  font-family: "Open Sans";
 }
 
 section.create .progress {
@@ -4098,8 +4150,13 @@ section.create textarea {
   font-family: "Open Sans";
   color: #fff;
   border: 1px solid #fff;
-  background: rgba(97, 103, 124, 0.3);
-  min-height: 150px;
+  background: rgba(97, 103, 124, 0);
+  height: 100px;
+  overflow: hidden;
+}
+
+section.create textarea:focus {
+  outline: none !important;
 }
 
 section.create .counter {

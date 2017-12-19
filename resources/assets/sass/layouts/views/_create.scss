@@ -34,6 +34,16 @@ section.create{
 		font-size:1.5em;
 		margin-bottom:10px;
 	}
+	.center-text{
+		text-align: center;
+		span{
+			margin-bottom: 5px;
+			letter-spacing:1px;
+		}
+	}
+	.character-amount{
+		font-size:.9rem;
+	}
 	.field-group{
 		margin-bottom:15px;
 		letter-spacing:1px;
@@ -58,6 +68,7 @@ section.create{
 		display:none;
 		h4{
 			margin-bottom:10px;
+			font-family: $secondary;
 		}
 	}
 	.progress{
@@ -73,8 +84,12 @@ section.create{
 		font-family:$secondary;
 		color:$color-white;
 		border:1px solid $color-white;
-		background:rgba(97, 103, 124, .3);
-		min-height:150px;
+		background:rgba(97, 103, 124, 0);
+		height:100px;
+		overflow:hidden;
+		&:focus{
+			outline:none !important;
+		}
 	}
 	.counter{
 		text-align:right;

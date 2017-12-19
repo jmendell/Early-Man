@@ -8,11 +8,11 @@ $app.init = function () {
 	$app.canvasHeight = 900,
 	$app.canvasWidth = 900,
 	$app.topOffset = 238,
-	$app.maxChars = 150,
+	$app.maxChars = 50,
 	$app.design = $('body').data('design'),
 	$app.text = new fabric.Textbox('', {
-		fontSize: 30,
-		fontFamily:"Trajan Pro"
+		fontSize: 36,
+		fontFamily:"Open Sans"
 	});
 	$app.card = executeFunctionByName('cards.card' + $app.design, $app);
 	$app.placeholder = $('#content-input').val(),

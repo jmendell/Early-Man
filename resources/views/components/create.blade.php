@@ -5,19 +5,19 @@
 				<span class="go-back">Back</span>
 			</figure>
 		</a>
-		<div class="col-6">
+		<div class="col-6 center-text">
+			<span>Click & Drag where you want your text</span>
 			<canvas id="c"></canvas>
 		</div>
 		<div class="col-6">
 			<div class="form-wrap">
 				<div class="field-group">
 					<h3>Enter your message</h3>
-					<textarea id="content-input" rv-text="content">Merry Christmas,
-You're the best!
+					<span class="character-amount">(Limit 50 characters)</span>
+					<textarea id="content-input" rv-text="content">To: You
 
-Love,
-Me</textarea>
-				<p class="counter">Characters Remaining: <span id="charCount">150</span></p>
+From: Me</textarea>
+				<p class="counter">Characters Remaining: <span id="charCount">50</span></p>
 				</div>
 				<input type="submit" id="finalize-creation" value="See Your Card">
 				{{ csrf_field() }}
