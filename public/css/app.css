@@ -3953,7 +3953,6 @@ section.choose .title-container .title-content img {
 }
 
 section.choose .row {
-  width: 75vw;
   margin: 0 auto;
   position: relative;
   overflow-y: scroll;
@@ -4212,6 +4211,7 @@ section.presentation .share {
 
 section.presentation .share h3 {
   margin-bottom: 15px;
+  letter-spacing: 1px;
 }
 
 section.presentation .share-social ul {
