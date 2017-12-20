@@ -3785,6 +3785,10 @@ body.create footer .character-cluster, body.presentation footer .character-clust
   display: none;
 }
 
+body.choose .character-cluster {
+  display: none;
+}
+
 section.home {
   max-width: 1200px;
   padding-top: 5%;
@@ -3950,6 +3954,7 @@ section.choose .mammoth-container {
   -webkit-box-pack: justify;
   justify-content: space-between;
   z-index: -1;
+  bottom: -500px;
 }
 
 section.choose .mammoth-container .mammoth {

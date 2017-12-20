@@ -43,10 +43,8 @@ body.create, body.presentation{
 	}
 }
 
-// body.choose{
-// 	@media (max-height: 850px){
-// 		.character-cluster{
-// 			display:none;
-// 		}
-// 	}
-// }
+body.choose{
+	.character-cluster{
+		display:none;
+	}
+}
