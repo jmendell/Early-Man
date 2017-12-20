@@ -11,31 +11,17 @@
 	<!-- for Facebook -->          
 	<meta property="og:title" content="Early Man - Ecard Generator" />
 	<meta property="og:type" content="video.movie" />
-	<meta property="og:image" content="http://www.ecard.theshack.movie/images/share-image.jpg" />
+	<meta property="og:image" content="" />
 	<meta property="og:url" content="https://earlymanmovie.com/" />
 	<meta property="og:description" content="Early Man - Ecard Generator" />
 	<!-- for Twitter -->          
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Early Man - Ecard Generator" />
-	<meta name="twitter:site" content="http://www.ecard.theshack.movie/">
+	<meta name="twitter:site" content="">
 	<meta name="twitter:description" content="Early Man Ecard Generator" />
-	<meta name="twitter:image" content="http://www.ecard.theshack.movie/images/share-image.jpg" />
+	<meta name="twitter:image" content="" />
 	<title>Early Man</title>
-	<link rel="canonical" href="ecard.theshack.movie">
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
-	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="canonical" href="">
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
@@ -53,7 +39,7 @@
 	  
 	</script>
 </head>
-<body class="@yield('bodyClass')">
+<body class="@yield('bodyClass')" style="background-image:url('/images/earlyman-bg.png');">
 	<main id="main">
 
 		@yield('content')
@@ -67,12 +53,6 @@
 				<div>
 					<img src="/images/lionsgate-logo.png" class="logo" alt="lionsgate logo">
 				</div>
-				<div>
-					<img src="/images/summit-logo-white.png" class="logo" alt="summit logo">
-				</div>
-			</div>
-			<div class="row">
-				<img src="/images/shack-billing.png" alt="billing block">
 			</div>
 			<div class="row">
 				<img src="/images/not-rated.png" class="rating" alt="rating">
@@ -94,7 +74,6 @@
 					<a href="http://www.lionsgate.com/corporate/terms/">Terms Of Use</a>
 				</li>
 			</ul>
-			<p class="copyright">MOTION PICTURE ARTWORK © 2017 SUMMIT ENTERTAINMENT LLC. ALL RIGHTS RESERVED.</p>
 		</div>
 	</section>
 	<footer>

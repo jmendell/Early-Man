@@ -3,12 +3,12 @@
 
 @section('content')
 	<div class="background-container">
-		<figure class="background">
+		<!-- <figure class="background">
 			<img src="/images/loader.png" class="responsive"
 			alt="" data-src='{"m":"/images/earlyman-bg-mobile.png","d":"/images/earlyman-bg.png"}'
 			/>
 			<img src="/images/loader.png" alt="background">
-		</figure>
+		</figure> -->
 	</div>
 	<div class="dynamic-content">
 		<section class="home">

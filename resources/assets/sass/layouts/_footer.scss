@@ -23,6 +23,8 @@ footer{
 			width:70%;
 			display: block;
 			margin:0 auto;
+			position:relative;
+			z-index:0;
 		}
 	}
 }
@@ -36,10 +38,10 @@ body.create, body.presentation{
 	}
 }
 
-body.choose{
-	@media (max-height: 850px){
-		.character-cluster{
-			display:none;
-		}
-	}
-}
+// body.choose{
+// 	@media (max-height: 850px){
+// 		.character-cluster{
+// 			display:none;
+// 		}
+// 	}
+// }

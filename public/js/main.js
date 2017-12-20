@@ -33,10 +33,25 @@
 					});
 				},
 
+				_WindowResize = function () {
+					jQuery(document).ready(function($){
+						var backgroundHeight = '';
+						function responsiveBackground(){
+							backgroundHeight = $('.dynamic-content').height() + 50; 
+							$('body').css('height', backgroundHeight);
+						}
+						responsiveBackground();
+						$(window).resize(function(){
+							responsiveBackground();
+						});
+					});
+				},
+
 				_RemoveLoadingClass = function () {
 					var loading = $('.dynamic-content').find('.loading');
 					$(loading).slideDown();
 				},
+
 
 				_AddContent = function(content) {
 
@@ -47,6 +62,7 @@
 						_RemoveLoadingClass();
 						_BodyClass(_o.url);
 						registerEvent(_o.url);
+						_WindowResize();
 					}).fadeIn(500);
 				},
 
