@@ -68,6 +68,7 @@ img{
 	background:rgba(0,22,48,0.8);
 	@include position(fixed, 0 null null 0);
 	@include size(100% 100vh);
+	z-index:2;
 	&.small-screens{
 		display:none;
 		@include media($tablet){

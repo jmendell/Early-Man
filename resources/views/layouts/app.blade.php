@@ -17,7 +17,7 @@
 	<!-- for Twitter -->          
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Early Man - Ecard Generator" />
-	<meta name="twitter:site" content="">
+	<meta name="twitter:site" content="https://earlymanmovie.com/">
 	<meta name="twitter:description" content="Early Man Ecard Generator" />
 	<meta name="twitter:image" content="" />
 	<link rel="icon" href="images/earlyman_fav_icon.png" type="image/x-icon" />

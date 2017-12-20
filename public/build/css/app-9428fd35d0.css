@@ -3178,6 +3178,7 @@ img {
   left: 0;
   height: 100vh;
   width: 100%;
+  z-index: 2;
 }
 
 .overlay.small-screens {
@@ -3954,7 +3955,6 @@ section.choose .mammoth-container {
   -webkit-box-pack: justify;
   justify-content: space-between;
   z-index: -1;
-  bottom: -500px;
 }
 
 section.choose .mammoth-container .mammoth {
@@ -4231,14 +4231,18 @@ section.create .canvas-container .upper-canvas {
 }
 
 section.presentation {
-  padding: 125px 0 100px 0;
   color: #fff;
+  padding-top: 4%;
+  padding-bottom: 50px;
 }
 
-@media screen and (max-width: 600px) {
-  section.presentation {
-    padding: 100px 0;
-  }
+section.presentation .title-container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section.presentation .title-container .title-treatment {
+  width: 300px;
 }
 
 section.presentation .col-6:first-child {
@@ -4424,7 +4428,7 @@ section.presentation .share-social ul li a svg {
 }
 
 #legal .legal-links a {
-  color: #fff;
+  color: #F4D7B6;
   font-size: .8em;
 }
 

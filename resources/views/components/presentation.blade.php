@@ -1,4 +1,9 @@
 <section class="presentation">
+	<div class="title-container">
+		<a href="/" class="home-link">
+			<img src="/images/title-treatment.png" alt="title" class="title-treatment">
+		</a>
+	</div>
 	<div class="content-container">
 		<div class="col-6">
 			<img src="{{ $url }}" alt="ecard" class="final-card">

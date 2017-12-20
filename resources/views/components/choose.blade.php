@@ -4,7 +4,9 @@
 		<img src="/images/right-mammoth.png" alt="mammoth" class="mammoth">
 	</div>
 	<div class="title-container" id="js_choose_title">
-		<img src="/images/title-treatment.png" alt="logo" class="choose-logo">
+		<a href="/" class="home-link">
+			<img src="/images/title-treatment.png" alt="logo" class="choose-logo">
+		</a>
 		<div class="title-content">
 			<img src="/images/hiroglyphs-left.png" alt="hyroglyphs" class="title-image-left">
 			<h1 class="title center">CHOOSE A FOSSIL TO CUSTOMIZE</h1>

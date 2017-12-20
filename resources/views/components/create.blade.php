@@ -1,6 +1,6 @@
 <section class="create">
 	<div class="row">
-		<a href="/choose" class="ajax-load" id="reset-image">
+		<a href="choose" class="ajax-load" id="reset-image">
 			<figure class="back-bg" style="background-image:url('/images/back-btn.png');">
 				<span class="go-back">Back</span>
 			</figure>

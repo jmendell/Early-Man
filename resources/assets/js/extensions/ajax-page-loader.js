@@ -71,11 +71,6 @@
 						registerEvent(_o.url);
 						_WindowResize();
 					}).fadeIn(500);
-					$('.mammoth-container').animate({
-						bottom: 0
-					}, 1000, function() {
-
-					});
 				},
 
 				_TrackPageChange = function () {

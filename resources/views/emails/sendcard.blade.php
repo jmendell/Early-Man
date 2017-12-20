@@ -13,7 +13,7 @@
 		<meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>*|MC:SUBJECT|*</title>
+		<title>Early Man in Theaters February 16th</title>
         
     <style type="text/css">
 		p{
@@ -99,7 +99,7 @@
 		}
 	
 		body,#bodyTable{
-			background-color:#032a45;
+			background-color:#101b2b;
 		}
 	
 		#bodyCell{
@@ -155,7 +155,7 @@
 		}
 	
 		#templatePreheader{
-			background-color:#;
+			background-color:#101b2b;
 			background-image:none;
 			background-repeat:no-repeat;
 			background-position:center;
@@ -167,7 +167,7 @@
 		}
 	
 		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
-			color:#656565;
+			color:#ffffff;
 			font-family:Helvetica;
 			font-size:12px;
 			line-height:150%;
@@ -175,13 +175,13 @@
 		}
 	
 		#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
-			color:#656565;
+			color:#ffffff;
 			font-weight:normal;
 			text-decoration:underline;
 		}
 	
 		#templateHeader{
-			background-color:#;
+			background-color:#101b2b;
 			background-image:none;
 			background-repeat:no-repeat;
 			background-position:top;
@@ -193,7 +193,7 @@
 		}
 	
 		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
-			color:#202020;
+			color:#ffffff;
 			font-family:Helvetica;
 			font-size:16px;
 			line-height:150%;
@@ -201,25 +201,25 @@
 		}
 	
 		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
-			color:#2BAADF;
+			color:#ffffff;
 			font-weight:normal;
 			text-decoration:underline;
 		}
 	
 		#templateBody{
-			background-color:#032a45;
-			background-image:url("https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/e23a31ce-02ec-473e-9663-e9042b6ae5e3.jpg");
+			background-color:#101b2b;
+			background-image:url("https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/4b11bef0-4a77-482a-905b-a275498e5df8.jpg");
 			background-repeat:no-repeat;
 			background-position:top;
 			background-size:auto;
 			border-top:0;
 			border-bottom:0;
 			padding-top:9px;
-			padding-bottom:9px;
+			padding-bottom:0px;
 		}
 	
 		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
-			color:#202020;
+			color:#ffffff;
 			font-family:Helvetica;
 			font-size:16px;
 			line-height:150%;
@@ -227,25 +227,25 @@
 		}
 	
 		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
-			color:#2BAADF;
+			color:#ffffff;
 			font-weight:normal;
 			text-decoration:underline;
 		}
 	
 		#templateFooter{
-			background-color:#032a45;
+			background-color:#000000;
 			background-image:none;
 			background-repeat:no-repeat;
 			background-position:center;
 			background-size:cover;
 			border-top:0;
 			border-bottom:0;
-			padding-top:9px;
-			padding-bottom:9px;
+			padding-top:0px;
+			padding-bottom:0px;
 		}
 	
 		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
-			color:#656565;
+			color:#ffffff;
 			font-family:Helvetica;
 			font-size:12px;
 			line-height:150%;
@@ -253,7 +253,7 @@
 		}
 	
 		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
-			color:#656565;
+			color:#ffffff;
 			font-weight:normal;
 			text-decoration:underline;
 		}
@@ -417,32 +417,14 @@
 }</style></head>
     <body>
         <center>
-            <table align="center" border="0" style="background:#080E18;" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            <table align="center" border="0" style="background:#101b2b;" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
                 <tr>
                     <td align="center" valign="top" id="bodyCell">
                         <!-- BEGIN TEMPLATE // -->
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                            <tr>
-								<td align="center" valign="top" id="templatePreheader" style="background:#032a45;">
-									<!--[if gte mso 9]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-									<tr>
-									<td align="center" valign="top" width="600" style="width:600px;">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
-										<tr>
-                                			<td valign="top" class="preheaderContainer"></td>
-										</tr>
-									</table>
-									<!--[if gte mso 9]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
-                            </tr>
+                            
 							<tr>
-								<td align="center" valign="top" id="templateHeader" style="background:#032a45;">
+								<td align="center" valign="top" id="templateHeader" style="background:#101b2b;">
 									<!--[if gte mso 9]>
 									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
 									<tr>
@@ -459,7 +441,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/f3ab5eb9-1ab0-4102-adc6-cc8749ecae04.jpg" width="600" style="max-width:1200px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                        <img align="center" alt="EARLY MAN in theaters February 16th" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/9d16d01a-897e-4ff1-8d4b-bd669061ae11.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color:#ffffff;fontpsize: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
                                     
                                 
                             </td>
@@ -479,7 +461,7 @@
 								</td>
                             </tr>
 							<tr>
-								<td align="center" valign="top" id="templateBody" style="background-color: #032a45; background-image: url(https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/e23a31ce-02ec-473e-9663-e9042b6ae5e3.jpg); background-repeat: no-repeat; background-position: top; background-size: auto; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 9px;">
+								<td align="center" valign="top" id="templateBody" style="background-color: #101b2b; background-image: url(https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/4b11bef0-4a77-482a-905b-a275498e5df8.jpg); background-repeat: no-repeat; background-position: top; background-size: auto; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 0px;">
 									<!--[if gte mso 9]>
 									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
 									<tr>
@@ -527,8 +509,8 @@
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
-                                    <a href="http://ecard.theshack.movie">
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/a1f82519-ffc8-4429-b353-c53c167f0016.jpg" width="600" style="max-width:1200px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                    <a href="http://earlymanecards.com">
+                                        <img align="center" alt="SEND A HOLIDAY CARD FROM THE STONE AGE. GET STARTED. CLICK HERE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/cca2ef5f-c0ee-482b-a508-6e754d5dc48d.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color: #ffffff;font-size: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
                                     </a>
                                     
                                 
@@ -546,8 +528,8 @@
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
-                                    <a href="http://www.theshack.movie/#trailer">
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/b765850e-24a0-4ad2-a5bb-27407b2b063d.jpg" width="600" style="max-width:1200px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                    <a href="https://www.youtube.com/watch?v=oZM8TwW8_jU&feature=youtu.be">
+                                        <img align="center" alt="WATCH THE TRAILER" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/474bfe6b-4984-4d47-9656-ebf11ebdc21a.jpg" width="600" style="background-color: #050b0d;max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color:#ffffff;font-size: 56px;font-family:Helvetica, Arial, sans-serif" class="mcnImage">
                                     </a>
                                     
                                 
@@ -557,16 +539,17 @@
                 </td>
             </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+</table>
+<table bgcolor="#101b2b" border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
     <tbody class="mcnImageBlockOuter">
             <tr>
                 <td valign="top" style="padding:0px" class="mcnImageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                    <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/b89a4c7c-003a-4179-ac75-8af4dd3936a9.jpg" width="600" style="max-width:1200px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                        <img align="center" alt="JOIN THE TRIBE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/a1bbd566-b45f-4474-8600-97666539301b.jpg" width="600" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color: #f6dec3;background:#000000;font-size: 48px;font-family:Helvetica, Arial, sans-serif;" class="mcnImage">
                                     
                                 
                             </td>
@@ -586,13 +569,13 @@
 								</td>
                             </tr>
                             <tr>
-								<td align="center" valign="top" id="templateFooter" style="background:#032a45;">
+								<td align="center" valign="top" id="templateFooter" style="background:#101b2b;">
 									<!--[if gte mso 9]>
 									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
 									<tr>
 									<td align="center" valign="top" width="600" style="width:600px;">
 									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+									<table bgcolor="#000000" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
 										<tr>
                                 			<td valign="top" class="footerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowBlock" style="min-width:100%;">
     <tbody class="mcnFollowBlockOuter">
@@ -604,9 +587,12 @@
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnFollowContent">
                 <tbody><tr>
                     <td align="center" valign="top" style="padding-top:9px; padding-right:9px; padding-left:9px;">
-                        <table align="center" border="0" cellpadding="0" cellspacing="0">
-                            <tbody><tr>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="300" style="margin: 0 auto;text-align:center">
+                            <tbody>
+                                <tr>
+                                
                                 <td align="center" valign="top">
+                                    <center style="width: 176px">
                                     <!--[if mso]>
                                     <table align="center" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
@@ -620,7 +606,7 @@
                                                  
                                                 <tbody><tr>
                                                     <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:9px;">
-                                                        <a href="https://www.facebook.com/theshackmovie/" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-facebook-96.png" alt="Facebook" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
+                                                        <a href="http://twitter.com/earlymanmovie" target="_blank"><img src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/9851fd6d-730d-4e61-b36c-59e2a8a2a06b.jpg" alt="t" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;color: #fff;font-size: 24px;font-family: Helvetica, Arial, sans-serif"></a>
                                                     </td>
                                                 </tr>
                                                 
@@ -640,7 +626,7 @@
                                                  
                                                 <tbody><tr>
                                                     <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:9px;">
-                                                        <a href="https://twitter.com/TheShackMovie" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-twitter-96.png" alt="Twitter" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
+                                                        <a href="https://facebook.com/EarlyManUS" target="_blank"><img src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/8a26b8e2-7fa5-4155-8cfc-60ba9d23e5db.jpg" alt="f" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;color: #fff;font-size: 24px;font-family: Helvetica, Arial, sans-serif"></a>
                                                     </td>
                                                 </tr>
                                                 
@@ -660,7 +646,7 @@
                                                  
                                                 <tbody><tr>
                                                     <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:9px;">
-                                                        <a href="https://www.instagram.com/TheShackMovie/" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-instagram-96.png" alt="Instagram" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
+                                                        <a href="http://instagram.com/earlymanmovie" target="_blank"><img src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/7782f16e-8168-4ecf-8eda-d74d37f8538d.jpg" alt="i" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;color: #fff;font-size: 24px;font-family: Helvetica, Arial, sans-serif"></a>
                                                     </td>
                                                 </tr>
                                                 
@@ -672,32 +658,30 @@
                                         </td>
                                         <![endif]-->
                                     
-                                        <!--[if mso]>
-                                        <td align="center" valign="top">
-                                        <![endif]-->
                                         
-                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked" style="display:inline;">
-                                                 
-                                                <tbody><tr>
-                                                    <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:0; padding-bottom:9px;">
-                                                        <a href="http://www.theshack.movie/" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-link-96.png" alt="Website" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
-                                                    </td>
-                                                </tr>
-                                                
-                                                
-                                            </tbody></table>
-                                        
-                                        
-                                        <!--[if mso]>
-                                        </td>
-                                        <![endif]-->
                                     
                                     <!--[if mso]>
                                     </tr>
                                     </table>
                                     <![endif]-->
+                                    </center>
+                                
                                 </td>
+                                
                             </tr>
+                            
+                           <tr>
+                           	<td style="color: #fff">
+                            	<center>
+                                <a href="http://earlyman.movie"><img align="center" alt="WWW.EARLYMAN.MOVIE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/dbd807be-9fac-4920-9307-4bf1ec990f10.jpg" width="400" style="max-width:400px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color: #ffffff;background:#000000;font-size: 32px;font-family:Helvetica, Arial, sans-serif;" class="mcnImage"></a>
+                                </center>
+                            </td>
+                           </tr>
+                           
+                          
+                    
+                        
+                        
                         </tbody></table>
                     </td>
                 </tr>
