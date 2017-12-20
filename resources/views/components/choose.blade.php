@@ -22,7 +22,7 @@
 							<span class="cta-button alt">Send This Card</span>
 						</div>
 					</div>
-					<img src="/images/card-thumbs/card-1.jpg" class="card" alt="ecard design">
+					<img src="/images/card-thumbs/em-card-1.jpg" class="card" alt="ecard design">
 				</div>
 			</a>
 		</div>
@@ -34,7 +34,7 @@
 							<span class="cta-button alt">Send This Card</span>
 						</div>
 					</div>
-					<img src="/images/card-thumbs/card-2.jpg" class="card" alt="ecard design">
+					<img src="/images/card-thumbs/em-card-2.jpg" class="card" alt="ecard design">
 				</div>
 			</a>
 		</div>
@@ -46,7 +46,7 @@
 							<span class="cta-button alt">Send This Card</span>
 						</div>
 					</div>
-					<img src="/images/card-thumbs/card-3.jpg" class="card" alt="ecard design">
+					<img src="/images/card-thumbs/em-card-3.jpg" class="card" alt="ecard design">
 				</div>
 			</a>
 		</div>
@@ -58,7 +58,7 @@
 							<span class="cta-button alt">Send This Card</span>
 						</div>
 					</div>
-					<img src="/images/card-thumbs/card-4.jpg" class="card" alt="ecard design">
+					<img src="/images/card-thumbs/em-card-4.jpg" class="card" alt="ecard design">
 				</div>
 			</a>
 		</div>
@@ -70,7 +70,7 @@
 							<span class="cta-button alt">Send This Card</span>
 						</div>
 					</div>
-					<img src="/images/card-thumbs/card-5.jpg" class="card" alt="ecard design">
+					<img src="/images/card-thumbs/em-card-5.jpg" class="card" alt="ecard design">
 				</div>
 			</a>
 		</div>
@@ -82,7 +82,7 @@
 							<span class="cta-button alt">Send This Card</span>
 						</div>
 					</div>
-					<img src="/images/card-thumbs/card-6.jpg" class="card" alt="ecard design">
+					<img src="/images/card-thumbs/em-card-6.jpg" class="card" alt="ecard design">
 				</div>
 			</a>
 		</div>
@@ -94,7 +94,7 @@
 							<span class="cta-button alt">Send This Card</span>
 						</div>
 					</div>
-					<img src="/images/card-thumbs/card-7.jpg" class="card" alt="ecard design">
+					<img src="/images/card-thumbs/em-card-7.jpg" class="card" alt="ecard design">
 				</div>
 			</a>
 		</div>
