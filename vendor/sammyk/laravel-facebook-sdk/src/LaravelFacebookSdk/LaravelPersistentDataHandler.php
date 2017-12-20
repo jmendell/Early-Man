@@ -1,20 +1,16 @@
 <?php namespace SammyK\LaravelFacebookSdk;
-
 use Illuminate\Session\Store as Session;
 use Facebook\PersistentData\PersistentDataInterface;
-
 class LaravelPersistentDataHandler implements PersistentDataInterface
 {
     /**
      * @const string Prefix to use for session variables.
      */
     const SESSION_PREFIX = 'FBRLH_';
-
     /**
      * @var Session
      */
     private $session;
-
     /**
      * @param Session $session
      */
@@ -22,7 +18,6 @@ class LaravelPersistentDataHandler implements PersistentDataInterface
     {
         $this->session = $session;
     }
-
     /**
      * @inheritdoc
      */
@@ -30,7 +25,6 @@ class LaravelPersistentDataHandler implements PersistentDataInterface
     {
         return $this->session->get(static::SESSION_PREFIX . $key);
     }
-
     /**
      * @inheritdoc
      */

@@ -58,13 +58,6 @@ class ComposerStaticInitc745770532501398efcb4bb4307edc80
             'Symfony\\Component\\Console\\' => 26,
             'SuperClosure\\' => 13,
             'Spatie\\Newsletter\\' => 18,
-            'SocialNorm\\SoundCloud\\' => 22,
-            'SocialNorm\\LinkedIn\\' => 20,
-            'SocialNorm\\Instagram\\' => 21,
-            'SocialNorm\\Google\\' => 18,
-            'SocialNorm\\GitHub\\' => 18,
-            'SocialNorm\\Facebook\\' => 20,
-            'SocialNorm\\' => 11,
             'SammyK\\LaravelFacebookSdk\\' => 26,
         ),
         'R' => 
@@ -122,8 +115,6 @@ class ComposerStaticInitc745770532501398efcb4bb4307edc80
         array (
             'Aws\\' => 4,
             'App\\' => 4,
-            'AdamWathan\\EloquentOAuth\\' => 25,
-            'AdamWathan\\EloquentOAuthL5\\' => 27,
         ),
     );
 
@@ -213,34 +204,6 @@ class ComposerStaticInitc745770532501398efcb4bb4307edc80
         'Spatie\\Newsletter\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/laravel-newsletter/src',
-        ),
-        'SocialNorm\\SoundCloud\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/socialnorm/soundcloud/src',
-        ),
-        'SocialNorm\\LinkedIn\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/socialnorm/linkedin/src',
-        ),
-        'SocialNorm\\Instagram\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/socialnorm/instagram/src',
-        ),
-        'SocialNorm\\Google\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/socialnorm/google/src',
-        ),
-        'SocialNorm\\GitHub\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/socialnorm/github/src',
-        ),
-        'SocialNorm\\Facebook\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/socialnorm/facebook/src',
-        ),
-        'SocialNorm\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/socialnorm/socialnorm/src',
         ),
         'SammyK\\LaravelFacebookSdk\\' => 
         array (
@@ -338,14 +301,6 @@ class ComposerStaticInitc745770532501398efcb4bb4307edc80
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
-        'AdamWathan\\EloquentOAuth\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/adamwathan/eloquent-oauth/src',
-        ),
-        'AdamWathan\\EloquentOAuthL5\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/adamwathan/eloquent-oauth-l5/src',
-        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -409,7 +364,6 @@ class ComposerStaticInitc745770532501398efcb4bb4307edc80
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
-        'FunctionalTestCase' => __DIR__ . '/..' . '/adamwathan/eloquent-oauth/tests/FunctionalTestCase.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
