@@ -16,7 +16,8 @@ section.home{
 			text-align: center;
 			top:-250px;
 			opacity: 0;
-			transition: .5s;
+			transition: .4s;
+			transition-delay: .7s;
 			position:absolute;
 			&.animate{
 				position:relative;
@@ -38,6 +39,7 @@ section.home{
 				position:absolute;
 				opacity: 0;
 				transition: .4s;
+				transition-delay: .5s;
 				&.animate{
 					opacity: 1;
 					position: relative;
@@ -51,10 +53,11 @@ section.home{
 				margin:0 auto;
 				margin-bottom:25px;
 				letter-spacing:1px;
-				top:-400px;
+				top:-500px;
 				position:absolute;
 				opacity: 0;
-				transition: .3s;
+				transition: .4s;
+				transition-delay: .3s;
 				&.animate{
 					opacity: 1;
 					position: relative;
@@ -72,10 +75,10 @@ section.home{
 			    height: 50px;
 			    margin: 0 auto;
 			    z-index:1;
-			    top:-400px;
+			    top:-500px;
 				position:absolute;
 				opacity: 0;
-				transition: .2s;
+				transition: .4s;
 				&.animate{
 					opacity: 1;
 					position: relative;

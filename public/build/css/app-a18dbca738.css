@@ -3742,7 +3742,8 @@ footer {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   bottom: -400px;
-  transition: .8s ease;
+  transition: 1s;
+  transition-delay: .7s;
 }
 
 footer.animate {
@@ -3813,7 +3814,8 @@ section.home .content-container .title-content {
   text-align: center;
   top: -250px;
   opacity: 0;
-  transition: .5s;
+  transition: .4s;
+  transition-delay: .7s;
   position: absolute;
 }
 
@@ -3838,6 +3840,7 @@ section.home .content-container .content .cards {
   position: absolute;
   opacity: 0;
   transition: .4s;
+  transition-delay: .5s;
 }
 
 section.home .content-container .content .cards.animate {
@@ -3853,10 +3856,11 @@ section.home .content-container .content .tagline {
   margin: 0 auto;
   margin-bottom: 25px;
   letter-spacing: 1px;
-  top: -400px;
+  top: -500px;
   position: absolute;
   opacity: 0;
-  transition: .3s;
+  transition: .4s;
+  transition-delay: .3s;
 }
 
 section.home .content-container .content .tagline.animate {
@@ -3879,10 +3883,10 @@ section.home .content-container .content .get-started {
   height: 50px;
   margin: 0 auto;
   z-index: 1;
-  top: -400px;
+  top: -500px;
   position: absolute;
   opacity: 0;
-  transition: .2s;
+  transition: .4s;
 }
 
 section.home .content-container .content .get-started.animate {
