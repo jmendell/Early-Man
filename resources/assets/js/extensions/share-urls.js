@@ -10,8 +10,8 @@
 
 				var socialProps = {};
 					socialProps.title = "Early Man";
-					socialProps.description = "Early Man Movie";
-					socialProps.url = "earlyman-gen.test";
+					socialProps.description = "Early Man - Ecard Generator";
+					socialProps.url = "54.208.62.166";
 
 				var _o = {},
 					$shareUrls = null

@@ -9,7 +9,7 @@
         "laravel/framework": "5.3.*",
         "league/flysystem-aws-s3-v3": "~1.0",
         "spatie/laravel-newsletter": "^3.3",
-        "sammyk/laravel-facebook-sdk": "^3.4",
+        "sammyk/laravel-facebook-sdk": "^3.5",
         "drmonty/animate.css": "^3.5"
     },
     "require-dev": {
