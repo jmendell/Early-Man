@@ -7,7 +7,7 @@
 		<img src="/images/title-treatment.png" alt="logo" class="choose-logo">
 		<div class="title-content">
 			<img src="/images/hiroglyphs-left.png" alt="hyroglyphs" class="title-image-left">
-			<h1 class="title center">Choose a fossil to customize</h1>
+			<h1 class="title center">CHOOSE A FOSSIL TO CUSTOMIZE</h1>
 			<img src="/images/hiroglyphs-right.png" alt="hyroglyphs" class="title-image-right">
 		</div>
 	</div>
