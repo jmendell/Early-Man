@@ -20,6 +20,7 @@
 	<meta name="twitter:site" content="">
 	<meta name="twitter:description" content="Early Man Ecard Generator" />
 	<meta name="twitter:image" content="" />
+	<link rel="icon" href="images/earlyman_fav_icon.png" type="image/x-icon" />
 	<title>Early Man</title>
 	<link rel="canonical" href="">
 	<link rel="manifest" href="/manifest.json">
