@@ -1,7 +1,11 @@
 footer{
 	@include position(absolute, null null null 50%);
 	@include transform(translateX(-50%));
-	bottom:0;
+	bottom:-400px;
+	transition:.8s ease;
+	&.animate{
+		bottom:0;
+	}
 	.footer-container{
 		display: flex;
 		align-items: flex-end;

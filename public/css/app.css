@@ -3741,6 +3741,11 @@ footer {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+  bottom: -400px;
+  transition: .8s ease;
+}
+
+footer.animate {
   bottom: 0;
 }
 
@@ -3806,6 +3811,16 @@ section.home .content-container .title-content {
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
+  top: -150px;
+  opacity: 0;
+  transition: .5s;
+  position: absolute;
+}
+
+section.home .content-container .title-content.animate {
+  position: relative;
+  top: 0;
+  opacity: 1;
 }
 
 section.home .content-container .title-content .title .logo {
@@ -3819,6 +3834,16 @@ section.home .content-container .content {
 section.home .content-container .content .cards {
   margin: 10px 0;
   width: 70%;
+  top: -300px;
+  position: absolute;
+  opacity: 0;
+  transition: .4s;
+}
+
+section.home .content-container .content .cards.animate {
+  opacity: 1;
+  position: relative;
+  top: 0;
 }
 
 section.home .content-container .content .tagline {
@@ -3828,6 +3853,16 @@ section.home .content-container .content .tagline {
   margin: 0 auto;
   margin-bottom: 25px;
   letter-spacing: 1px;
+  top: -300px;
+  position: absolute;
+  opacity: 0;
+  transition: .3s;
+}
+
+section.home .content-container .content .tagline.animate {
+  opacity: 1;
+  position: relative;
+  top: 0;
 }
 
 section.home .content-container .content .get-started {
@@ -3844,6 +3879,16 @@ section.home .content-container .content .get-started {
   height: 50px;
   margin: 0 auto;
   z-index: 1;
+  top: -300px;
+  position: absolute;
+  opacity: 0;
+  transition: .2s;
+}
+
+section.home .content-container .content .get-started.animate {
+  opacity: 1;
+  position: relative;
+  top: 0;
 }
 
 section.home .content-container .content .get-started .home-btn-text {

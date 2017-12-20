@@ -47,6 +47,12 @@
 					});
 				},
 
+				_Animations = function() {
+					jQuery(document).ready(function($){
+						$('.js_choose_title').addClass('animate');
+					});
+				},
+
 				_RemoveLoadingClass = function () {
 					var loading = $('.dynamic-content').find('.loading');
 					$(loading).slideDown();
@@ -56,6 +62,7 @@
 				_AddContent = function(content) {
 
 					_TrackPageChange();
+				
 
 					$('.dynamic-content').fadeOut(500, function() {
 						$(this).html(content)

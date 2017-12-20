@@ -14,6 +14,15 @@ section.home{
 		.title-content{
 			align-items:center;
 			text-align: center;
+			top:-150px;
+			opacity: 0;
+			transition: .5s;
+			position:absolute;
+			&.animate{
+				position:relative;
+				top:0;
+				opacity: 1;
+			}
 			.title{
 				.logo{
 					width: 370px;
@@ -25,6 +34,15 @@ section.home{
 			.cards{
 				margin:10px 0;
 				width:70%;
+				top:-300px;
+				position:absolute;
+				opacity: 0;
+				transition: .4s;
+				&.animate{
+					opacity: 1;
+					position: relative;
+					top:0;
+				}
 			}
 			.tagline{
 				font-size:2.5rem;
@@ -33,6 +51,15 @@ section.home{
 				margin:0 auto;
 				margin-bottom:25px;
 				letter-spacing:1px;
+				top:-300px;
+				position:absolute;
+				opacity: 0;
+				transition: .3s;
+				&.animate{
+					opacity: 1;
+					position: relative;
+					top:0;
+				}
 			}
 			.get-started{
 				background-size:contain;
@@ -45,6 +72,15 @@ section.home{
 			    height: 50px;
 			    margin: 0 auto;
 			    z-index:1;
+			    top:-300px;
+				position:absolute;
+				opacity: 0;
+				transition: .2s;
+				&.animate{
+					opacity: 1;
+					position: relative;
+					top:0;
+				}
 			    .home-btn-text{
 			    	position:relative;
 			    	color:$color-white;

@@ -3,7 +3,7 @@
 		<img src="/images/left-mammoth.png" alt="mammoth" class="mammoth">
 		<img src="/images/right-mammoth.png" alt="mammoth" class="mammoth">
 	</div>
-	<div class="title-container">
+	<div class="title-container" id="js_choose_title">
 		<img src="/images/title-treatment.png" alt="logo" class="choose-logo">
 		<div class="title-content">
 			<img src="/images/hiroglyphs-left.png" alt="hyroglyphs" class="title-image-left">
