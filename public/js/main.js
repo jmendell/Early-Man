@@ -47,11 +47,6 @@
 					});
 				},
 
-				_Animations = function() {
-					jQuery(document).ready(function($){
-						$('.js_choose_title').addClass('animate');
-					});
-				},
 
 				_RemoveLoadingClass = function () {
 					var loading = $('.dynamic-content').find('.loading');

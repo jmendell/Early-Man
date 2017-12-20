@@ -7,119 +7,82 @@ use SammyK;
 use Session;
 use Cookie;
 
-// class SocialAuthController extends Controller
-// {
-// 	public function fbLoginUrl(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
+class SocialAuthController extends Controller
+{
+	public function fbLoginUrl(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
 	
-// 		$login_link = $fb
-// 				->getRedirectLoginHelper()
-// 				->getLoginUrl(env('FACEBOOK_REDIRECT'), ['email', 'user_events', 'publish_actions']);
+		$login_link = $fb
+				->getRedirectLoginHelper()
+				->getLoginUrl(env('FACEBOOK_REDIRECT'), ['email', 'user_events', 'publish_actions']);
 
-// 		return $login_link;
+		return $login_link;
 		
-// 	}
+	}
 
-// 	public function fbLoginCallback(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
+	public function fbLoginCallback(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
 	
-// 		try {
+		try {
 
-// 			$token = $fb
-// 				->getRedirectLoginHelper()
-// 				->getAccessToken();
-// 			Session::put('fb_access_token', (string) $token);
+			$token = $fb
+				->getRedirectLoginHelper()
+				->getAccessToken();
+			Session::put('fb_access_token', (string) $token);
 
-// 			return redirect('/facebook/post-preview');
+			return redirect('/facebook/post-preview');
 
-// 		} catch (Facebook\Exceptions\FacebookSDKException $e) {
-// 			// Failed to obtain access token
-// 			dd($e->getMessage());
-// 		}
+		} catch (Facebook\Exceptions\FacebookSDKException $e) {
+			// Failed to obtain access token
+			dd($e->getMessage());
+		}
 		
-// 	}
+	}
 
-// 	public function fbPostPreview (SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
+	public function fbPostPreview (SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
 	
-// 		$token = Session::get('fb_access_token');
-// 		$fb->setDefaultAccessToken($token);
+		$token = Session::get('fb_access_token');
+		$fb->setDefaultAccessToken($token);
 
-// 		try {
-// 			$imageResponse = $fb->get('/me/picture?redirect=false&height=300');
-// 			$userResponse = $fb->get('/me?fields=name');
-// 		} catch(\Facebook\Exceptions\FacebookSDKException $e) {
-// 			dd($e->getMessage());
-// 		}
+		try {
+			$imageResponse = $fb->get('/me/picture?redirect=false&height=300');
+			$userResponse = $fb->get('/me?fields=name');
+		} catch(\Facebook\Exceptions\FacebookSDKException $e) {
+			dd($e->getMessage());
+		}
 
-// 		$user = $userResponse->getGraphUser();
-// 		$userImage = $imageResponse->getGraphUser();
-// 		$card = $_COOKIE['card'];
+		$user = $userResponse->getGraphUser();
+		$userImage = $imageResponse->getGraphUser();
+		$card = $_COOKIE['card'];
 
-// 		$user = array(
-// 			'user'  => $user,
-// 			'image' => $userImage['url'],
-// 			'card'  => $card
-// 		);
+		$user = array(
+			'user'  => $user,
+			'image' => $userImage['url'],
+			'card'  => $card
+		);
 		
-// 		return view('fbpost', compact('user'));
+		return view('fbpost', compact('user'));
 	
-// 	}
+	}
 
-// 	public function fbPost (Request $request, SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
+	public function fbPost (Request $request, SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
 
-// 		$token = Session::get('fb_access_token');
-// 		$image = $_COOKIE['card'];
+		$token = Session::get('fb_access_token');
+		$image = $_COOKIE['card'];
 
-// 		$data = [
-// 			'message' => $request->message,
-// 			'url' => $image
-// 		];
+		$data = [
+			'message' => $request->message,
+			'url' => $image
+		];
 
-// 		try {
-// 			$response = $fb->post('/me/photos', $data, $token);
-// 		} catch(Facebook\Exceptions\FacebookSDKException $e) {
-// 			echo 'Error: ' . $e->getMessage();
-// 			exit;
-// 		}
+		try {
+			$response = $fb->post('/me/photos', $data, $token);
+		} catch(Facebook\Exceptions\FacebookSDKException $e) {
+			echo 'Error: ' . $e->getMessage();
+			exit;
+		}
 
-// 		$graphNode = $response->getGraphNode();
+		$graphNode = $response->getGraphNode();
 
-// 		return $graphNode['id'];
+		return $graphNode['id'];
 
-// 	}
-// }
-
-Route::get('/facebook/login', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
-    $login_link = $fb
-            ->getRedirectLoginHelper()
-            ->getLoginUrl('https://exmaple.com/facebook/callback', ['email', 'user_events']);
-    
-    echo '<a href="' . $login_link . '">Log in with Facebook</a>';
-});
-
-$login_link = $fb->getLoginUrl();
-
-$login_link = $fb->getLoginUrl(['email', 'user_status'], 'https://exmaple.com/facebook/callback');
-
-Route::get('/facebook/callback', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
-    try {
-        $token = $fb
-            ->getRedirectLoginHelper()
-            ->getAccessToken();
-    } catch (Facebook\Exceptions\FacebookSDKException $e) {
-        // Failed to obtain access token
-        dd($e->getMessage());
-    }
-});
-
-Route::get('/facebook/callback', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
-    try {
-        $token = $fb->getAccessTokenFromRedirect();
-    } catch (Facebook\Exceptions\FacebookSDKException $e) {
-        // Failed to obtain access token
-        dd($e->getMessage());
-    }
-    
-    // $token will be null if the user denied the request
-    if (! $token) {
-        // User denied the request
-    }
-});
+	}
+}
