@@ -10,7 +10,8 @@
         "league/flysystem-aws-s3-v3": "~1.0",
         "spatie/laravel-newsletter": "^3.3",
         "sammyk/laravel-facebook-sdk": "^3.5",
-        "drmonty/animate.css": "^3.5"
+        "drmonty/animate.css": "^3.5",
+        "adamwathan/eloquent-oauth-l5": "^0.5.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

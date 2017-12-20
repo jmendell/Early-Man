@@ -87,6 +87,8 @@ use Cookie;
 // 	}
 // }
 
+$login_link = $fb->getLoginUrl(['email', 'user_status'], 'https://exmaple.com/facebook/callback');
+
 Route::get('/facebook/login', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
     $login_link = $fb
             ->getRedirectLoginHelper()
@@ -95,9 +97,7 @@ Route::get('/facebook/login', function(SammyK\LaravelFacebookSdk\LaravelFacebook
     echo '<a href="' . $login_link . '">Log in with Facebook</a>';
 });
 
-$login_link = $fb->getLoginUrl();
 
-$login_link = $fb->getLoginUrl(['email', 'user_status'], 'https://exmaple.com/facebook/callback');
 
 Route::get('/facebook/callback', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
     try {
