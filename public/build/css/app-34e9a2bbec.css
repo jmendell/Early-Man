@@ -3117,6 +3117,8 @@ body {
   margin: 0;
   background: #f5f5f5;
   background-color: #AB0003;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
   min-height: 100%;
 }

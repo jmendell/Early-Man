@@ -16,6 +16,8 @@ body{
 	margin:0;
 	background:$color-gray-bg;
 	background-color:#AB0003;
+	background-size:cover;
+	background-repeat:no-repeat;
 	height:100%;
 	min-height:100%;
 	@include media($mobile){
