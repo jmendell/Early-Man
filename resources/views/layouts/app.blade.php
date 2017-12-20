@@ -40,7 +40,7 @@
 	  
 	</script>
 </head>
-<body class="@yield('bodyClass')" style="background-image:url('/images/earlyman-bg.png');">
+<body class="@yield('bodyClass')" style="background-image:url('/images/earlyman-bg.jpg');">
 	<main id="main">
 
 		@yield('content')
