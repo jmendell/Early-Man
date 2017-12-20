@@ -3811,7 +3811,7 @@ section.home .content-container .title-content {
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
-  top: -150px;
+  top: -250px;
   opacity: 0;
   transition: .5s;
   position: absolute;
@@ -3834,7 +3834,7 @@ section.home .content-container .content {
 section.home .content-container .content .cards {
   margin: 10px 0;
   width: 70%;
-  top: -300px;
+  top: -400px;
   position: absolute;
   opacity: 0;
   transition: .4s;
@@ -3853,7 +3853,7 @@ section.home .content-container .content .tagline {
   margin: 0 auto;
   margin-bottom: 25px;
   letter-spacing: 1px;
-  top: -300px;
+  top: -400px;
   position: absolute;
   opacity: 0;
   transition: .3s;
@@ -3879,7 +3879,7 @@ section.home .content-container .content .get-started {
   height: 50px;
   margin: 0 auto;
   z-index: 1;
-  top: -300px;
+  top: -400px;
   position: absolute;
   opacity: 0;
   transition: .2s;
