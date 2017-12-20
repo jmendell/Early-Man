@@ -168,7 +168,6 @@ return [
          */
         Spatie\Newsletter\NewsletterServiceProvider::class,
         SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
-        AdamWathan\EloquentOAuthL5\EloquentOAuthServiceProvider::class,
 
         //
 
