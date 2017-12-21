@@ -105,7 +105,7 @@ $app.centerText = function () {
 }
 
 $app.saveImage = function () {
-	var imgData = $app.canvas.toDataURL({format:'jpeg', quality:0.8});
+	var imgData = $app.canvas.toDataURL({format:'jpeg', quality:0.9});
 	return imgData;
 }
 
