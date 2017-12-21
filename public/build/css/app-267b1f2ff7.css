@@ -3131,7 +3131,7 @@ body {
 }
 
 body.home {
-  height: 100vh;
+  overflow: hidden;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -3744,7 +3744,7 @@ footer {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom: -400px;
+  bottom: -250px;
   transition: 1s;
   transition-delay: .7s;
 }
@@ -4009,6 +4009,8 @@ section.choose .row {
   justify-content: center;
   position: relative;
   z-index: 1;
+  max-height: 600px;
+  overflow-y: scroll;
 }
 
 section.choose .card-container {
@@ -4073,6 +4075,11 @@ section.choose .card-item .info {
 
 section.choose .card-item img {
   display: block;
+}
+
+body.choose {
+  background-color: #040C2B;
+  background-size: initial;
 }
 
 section.create {

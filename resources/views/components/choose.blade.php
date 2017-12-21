@@ -98,5 +98,65 @@
 				</div>
 			</a>
 		</div>
+		<div class="card-container" style="background-image:url('/images/frame.png');">
+			<a href="create" class="card-item ajax-load app-init" data-design="8">
+				<div class="card-inner">
+					<div class="info">
+						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
+							<span class="cta-button alt">Send This Card</span>
+						</div>
+					</div>
+					<img src="/images/card-thumbs/em-card-8-sm.png" class="card" alt="ecard design">
+				</div>
+			</a>
+		</div>
+		<div class="card-container" style="background-image:url('/images/frame.png');">
+			<a href="create" class="card-item ajax-load app-init" data-design="9">
+				<div class="card-inner">
+					<div class="info">
+						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
+							<span class="cta-button alt">Send This Card</span>
+						</div>
+					</div>
+					<img src="/images/card-thumbs/em-card-9-sm.jpg" class="card" alt="ecard design">
+				</div>
+			</a>
+		</div>
+		<div class="card-container" style="background-image:url('/images/frame.png');">
+			<a href="create" class="card-item ajax-load app-init" data-design="10">
+				<div class="card-inner">
+					<div class="info">
+						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
+							<span class="cta-button alt">Send This Card</span>
+						</div>
+					</div>
+					<img src="/images/card-thumbs/em-card-10-sm.jpg" class="card" alt="ecard design">
+				</div>
+			</a>
+		</div>
+		<div class="card-container" style="background-image:url('/images/frame.png');">
+			<a href="create" class="card-item ajax-load app-init" data-design="11">
+				<div class="card-inner">
+					<div class="info">
+						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
+							<span class="cta-button alt">Send This Card</span>
+						</div>
+					</div>
+					<img src="/images/card-thumbs/em-card-11-sm.jpg" class="card" alt="ecard design">
+				</div>
+			</a>
+		</div>
+		<div class="card-container" style="background-image:url('/images/frame.png');">
+			<a href="create" class="card-item ajax-load app-init" data-design="12">
+				<div class="card-inner">
+					<div class="info">
+						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
+							<span class="cta-button alt">Send This Card</span>
+						</div>
+					</div>
+					<img src="/images/card-thumbs/em-card-12-sm.jpg" class="card" alt="ecard design">
+				</div>
+			</a>
+		</div>
 	</div>
 </section>

@@ -51,6 +51,8 @@ section.choose{
 		justify-content: center;
 		position:relative;
 		z-index: 1;
+		max-height: 600px;
+		overflow-y:scroll;
 	}
 	.card-container{
 	    height: 275px;
@@ -96,4 +98,9 @@ section.choose{
 			display:block;
 		}
 	}
+}
+
+body.choose{
+	background-color: #040C2B;
+	background-size:initial;
 }

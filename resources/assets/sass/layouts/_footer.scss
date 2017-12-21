@@ -1,7 +1,7 @@
 footer{
 	@include position(absolute, null null null 50%);
 	@include transform(translateX(-50%));
-	bottom:-400px;
+	bottom:-250px;
 	transition:1s;
 	transition-delay:.7s;
 	&.animate{
