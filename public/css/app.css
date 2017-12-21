@@ -3134,6 +3134,14 @@ body.home {
   overflow: hidden;
 }
 
+body.presentation {
+  overflow: hidden;
+}
+
+body.create {
+  overflow: hidden;
+}
+
 p, h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
@@ -4204,7 +4212,7 @@ section.create textarea {
   color: #fff;
   border: 1px solid #fff;
   background: rgba(97, 103, 124, 0);
-  height: 100px;
+  height: 70px;
   overflow: hidden;
 }
 
@@ -4252,6 +4260,10 @@ section.presentation .title-container {
 
 section.presentation .title-container .title-treatment {
   width: 300px;
+}
+
+section.presentation .final-card {
+  max-width: 400px;
 }
 
 section.presentation .col-6:first-child {

@@ -25,7 +25,12 @@ body{
 		height:auto;
 	}
 	&.home{
-		// height: 100vh;
+		overflow:hidden;
+	}
+	&.presentation{
+		overflow:hidden;
+	}
+	&.create{
 		overflow:hidden;
 	}
 }

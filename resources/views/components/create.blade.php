@@ -15,7 +15,6 @@
 					<h3>ENTER YOUR MESSAGE</h3>
 					<span class="character-amount">(Limit 50 characters)</span>
 					<textarea id="content-input" rv-text="content">To: You
-
 From: Me</textarea>
 				<p class="counter">CHARACTERS REMAINING: <span id="charCount">50</span></p>
 				</div>
