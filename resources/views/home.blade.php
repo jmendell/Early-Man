@@ -20,7 +20,7 @@
 				</div>
 				<div class="content">
 					<img src="/images/cards.png" alt="cards" class="cards">
-					<h1 class="tagline uppercase">SEND A HOLIDAY CARD FROM THIS STONE AGE</h1>
+					<p class="tagline uppercase">SEND A HOLIDAY CARD FROM THIS STONE AGE</p>
 					<a href="choose" class="home-button-link ajax-load">
 						<figure class="get-started" style="background-image:url('/images/btn-option-1.png');">
 							<span class="home-btn-text">GET STARTED</span>

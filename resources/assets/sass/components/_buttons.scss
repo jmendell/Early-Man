@@ -10,13 +10,13 @@
 	text-decoration:none;
 	border:2px solid $color-white;
 	cursor:pointer;
-	font-family:$secondary;
+	font-family:$primary;
 	&:hover{
 		background:rgba(97, 103, 124, 1);
 	}
 	&.alt{
 		border:none;
-		font-size:.7em;
+		font-size:1em;
 		background-color: transparent;
 		padding:0;
 		width:100%;

@@ -3269,7 +3269,7 @@ img {
   text-decoration: none;
   border: 2px solid #fff;
   cursor: pointer;
-  font-family: "Open Sans";
+  font-family: "EarlyMan-Regular";
 }
 
 .cta-button:hover, input[type="submit"]:hover {
@@ -3278,7 +3278,7 @@ img {
 
 .cta-button.alt, input[type="submit"].alt {
   border: none;
-  font-size: .7em;
+  font-size: 1em;
   background-color: transparent;
   padding: 0;
   width: 100%;
@@ -3318,7 +3318,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   font-size: .9em;
   padding: .8em 1em;
   border: none;
-  font-family: "Open Sans";
+  font-family: "EarlyMan-Regular";
 }
 
 input[type="color"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, input[type="datetime"]::-webkit-input-placeholder, input[type="datetime-local"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, input[type="month"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="time"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, input[type="week"]::-webkit-input-placeholder, input:not([type])::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
@@ -3393,7 +3393,7 @@ input[type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-family: "Open Sans";
+  font-family: "EarlyMan-Regular";
   display: block;
   width: 100%;
   padding: 0.8em 0 0.6em 0;

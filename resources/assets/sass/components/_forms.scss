@@ -13,7 +13,7 @@ fieldset{
 	font-size:.9em;
 	padding:.8em 1em;
 	border:none;
-	font-family:$secondary;
+	font-family:$primary;
 	@include placeholder{
 		text-transform:uppercase;
 		color:$color-white;
@@ -54,7 +54,7 @@ input[type="checkbox"]{
 
 input[type="submit"]{
 	appearance:none;
-	font-family:$secondary;
+	font-family:$primary;
 	display:block;
 	width:100%;
 	padding:0.8em 0 0.6em 0;

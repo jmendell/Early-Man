@@ -19,7 +19,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-1-sm.jpg" class="card" alt="ecard design">
@@ -31,7 +31,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-2-sm.jpg" class="card" alt="ecard design">
@@ -43,7 +43,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-3-sm.jpg" class="card" alt="ecard design">
@@ -55,7 +55,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-4-sm.jpg" class="card" alt="ecard design">
@@ -67,7 +67,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-5-sm.jpg" class="card" alt="ecard design">
@@ -79,7 +79,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-6-sm.jpg" class="card" alt="ecard design">
@@ -91,7 +91,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-7-sm.jpg" class="card" alt="ecard design">
@@ -103,7 +103,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-8-sm.jpg" class="card" alt="ecard design">
@@ -115,7 +115,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-9-sm.jpg" class="card" alt="ecard design">
@@ -127,7 +127,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-10-sm.jpg" class="card" alt="ecard design">
@@ -139,7 +139,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-11-sm.jpg" class="card" alt="ecard design">
@@ -151,7 +151,7 @@
 				<div class="card-inner">
 					<div class="info">
 						<div class="button-container" style="background-image:url('/images/btn-option-1.png');">
-							<span class="cta-button alt">Send This Card</span>
+							<span class="cta-button alt">SEND THIS CARD</span>
 						</div>
 					</div>
 					<img src="/images/card-thumbs/em-card-12-sm.jpg" class="card" alt="ecard design">
