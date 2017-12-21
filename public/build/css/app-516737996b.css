@@ -4365,6 +4365,8 @@ section.create .canvas-container .upper-canvas {
 
 section.create .progress-section {
   display: none;
+  width: 75%;
+  margin: 0 auto;
 }
 
 section.create .progress-section h4 {

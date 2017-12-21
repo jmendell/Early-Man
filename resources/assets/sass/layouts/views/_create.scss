@@ -145,6 +145,8 @@ section.create{
 	}
 	.progress-section{
 		display:none;
+		width: 75%;
+		margin:0 auto;
 		h4{
 			margin-bottom:10px;
 			font-family: $secondary;

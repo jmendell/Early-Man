@@ -20,6 +20,12 @@ From: Me</textarea>
 				<input type="submit" id="finalize-creation" value="See Your Card">
 				{{ csrf_field() }}
 			</div>
+			<div class="progress-section">
+				<h4>GENERATING YOUR ECARD!</h4>
+				<div class="progress">
+					<div class="progress-inner"></div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
