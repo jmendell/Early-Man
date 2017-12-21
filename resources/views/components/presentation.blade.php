@@ -13,7 +13,7 @@
 			<div class="share share-email">
 				<form id="email-form" action="/send" method="POST">
 					<div class="flex-form-group">
-						<label for="to">Send to:</label>
+						<label for="to">SEND TO:</label>
 						<input type="email" name="to" placeholder="Email">
 					</div>
 					<div class="flex-form-group">
@@ -26,11 +26,11 @@
 				</form>
 			</div>
 			<div class="share share-download">
-				<h3>Download your Card</h3>
-				<a href="{{ $url }}" download="the-shack-ecard.jpg" target="_BLANK" class="cta-button">Download</a>
+				<h3>DOWNLOAD YOUR CARD</h3>
+				<a href="{{ $url }}" download="the-shack-ecard.jpg" target="_BLANK" class="cta-button">DOWNLOAD</a>
 			</div>
 			<div class="share share-social">
-				<h3>Share your Card</h3>
+				<h3>SHARE YOUR CARD</h3>
 				<ul>
 					<li>
 						<a id="facebook-share" href="" data-link="http://earlymanecards.com/" target="_BLANK">
