@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 	<head>
 		<!-- NAME: 1 COLUMN - BANDED -->
@@ -441,7 +441,8 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     
-                                        <img align="center" alt="EARLY MAN in theaters February 16th" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/9d16d01a-897e-4ff1-8d4b-bd669061ae11.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color:#ffffff;fontpsize: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
+                                        <img align="center" alt="EARLY MAN in theaters February 16th" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/66b5877a-65ab-4fd3-b908-5b7b975c0117.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: block !important; vertical-align: bottom;color:#ffffff;fontpsize: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
+                                        
                                     
                                 
                             </td>
@@ -461,7 +462,7 @@
 								</td>
                             </tr>
 							<tr>
-								<td align="center" valign="top" id="templateBody" style="background-color: #101b2b; background-image: url(https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/4b11bef0-4a77-482a-905b-a275498e5df8.jpg); background-repeat: no-repeat; background-position: top; background-size: auto; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 0px;">
+								<td align="center" valign="top" id="templateBody" style="display:block;background-color: #101b2b; background-image: url(https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/dd95b835-5a49-4c98-89b8-ac47c02ea7ab.jpg); background-repeat: no-repeat; background-position: top; background-size: auto; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 0px;">
 									<!--[if gte mso 9]>
 									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
 									<tr>
@@ -510,7 +511,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     <a href="http://earlymanecards.com">
-                                        <img align="center" alt="SEND A HOLIDAY CARD FROM THE STONE AGE. GET STARTED. CLICK HERE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/cca2ef5f-c0ee-482b-a508-6e754d5dc48d.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color: #ffffff;font-size: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
+                                        <img align="center" alt="SEND A HOLIDAY CARD FROM THE STONE AGE. GET STARTED. CLICK HERE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/cca2ef5f-c0ee-482b-a508-6e754d5dc48d.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: block !important; vertical-align: bottom;color: #ffffff;font-size: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
                                     </a>
                                     
                                 
@@ -529,7 +530,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     <a href="https://www.youtube.com/watch?v=oZM8TwW8_jU&feature=youtu.be">
-                                        <img align="center" alt="WATCH THE TRAILER" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/474bfe6b-4984-4d47-9656-ebf11ebdc21a.jpg" width="600" style="background-color: #050b0d;max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color:#ffffff;font-size: 56px;font-family:Helvetica, Arial, sans-serif" class="mcnImage">
+                                        <img align="center" alt="WATCH THE TRAILER" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/474bfe6b-4984-4d47-9656-ebf11ebdc21a.jpg" width="600" style="background-color: #050b0d;max-width:600px; padding-bottom: 0; display: block !important; vertical-align: bottom;color:#ffffff;font-size: 56px;font-family:Helvetica, Arial, sans-serif" class="mcnImage">
                                     </a>
                                     
                                 
@@ -549,7 +550,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     
-                                        <img align="center" alt="JOIN THE TRIBE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/a1bbd566-b45f-4474-8600-97666539301b.jpg" width="600" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color: #f6dec3;background:#000000;font-size: 48px;font-family:Helvetica, Arial, sans-serif;" class="mcnImage">
+                                        <img align="center" alt="JOIN THE TRIBE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/a1bbd566-b45f-4474-8600-97666539301b.jpg" width="600" style="max-width:600px; padding-bottom: 0; display: block !important; vertical-align: bottom;color: #f6dec3;background:#000000;font-size: 48px;font-family:Helvetica, Arial, sans-serif;" class="mcnImage">
                                     
                                 
                             </td>
