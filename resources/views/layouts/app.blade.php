@@ -12,12 +12,12 @@
 	<meta property="og:title" content="Early Man - Ecard Generator" />
 	<meta property="og:type" content="video.movie" />
 	<meta property="og:image" content="" />
-	<meta property="og:url" content="https://earlymanmovie.com/" />
+	<meta property="og:url" content="http://earlymanecards.com/" />
 	<meta property="og:description" content="Early Man - Ecard Generator" />
 	<!-- for Twitter -->          
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Early Man - Ecard Generator" />
-	<meta name="twitter:site" content="https://earlymanmovie.com/">
+	<meta name="twitter:site" content="http://earlymanecards.com/">
 	<meta name="twitter:description" content="Early Man Ecard Generator" />
 	<meta name="twitter:image" content="" />
 	<link rel="icon" href="images/earlyman_fav_icon.png" type="image/x-icon" />

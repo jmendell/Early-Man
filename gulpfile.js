@@ -28,8 +28,7 @@ elixir(mix => {
 
 // Assets that only require copy to public
 elixir(mix => {
-	mix.copy('resources/assets/images', 'public/images')
-		.copy('resources/assets/js/lib', 'public/js/lib')
+	mix.copy('resources/assets/js/lib', 'public/js/lib')
 		.copy('resources/assets/meta', 'public/');
 });
 

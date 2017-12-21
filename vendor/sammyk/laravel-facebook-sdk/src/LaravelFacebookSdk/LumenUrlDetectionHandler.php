@@ -1,15 +1,12 @@
 <?php namespace SammyK\LaravelFacebookSdk;
-
 use Facebook\Url\UrlDetectionInterface;
 use Laravel\Lumen\Routing\UrlGenerator;
-
 class LumenUrlDetectionHandler implements UrlDetectionInterface
 {
     /**
      * @var UrlGenerator
      */
     private $url;
-
     /**
      * @param UrlGenerator $url
      */
@@ -17,7 +14,6 @@ class LumenUrlDetectionHandler implements UrlDetectionInterface
     {
         $this->url = $url;
     }
-
     /**
      * @inheritdoc
      */
