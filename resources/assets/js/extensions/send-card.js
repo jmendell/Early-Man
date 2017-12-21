@@ -46,7 +46,7 @@
 				_HandleResponse = function (res) {
 					var notification = $('.email-notification');
 					if (res == '1') {
-						notification.html('YOUR ECARD HAS BEEN SENT. <a href="/">SEND ANOTHER?</a>');
+						notification.html('YOUR ECARD HAS BEEN SENT. <a href="/" style="color:#fff;">SEND ANOTHER?</a>');
 						notification.slideDown();
 					}else {
 						notification.html('There was an issue sending your E-Card. Please try again.');
