@@ -33,7 +33,7 @@
 				<h3>Share your Card</h3>
 				<ul>
 					<li>
-						<a id="facebook-share" href="" target="_BLANK">
+						<a id="facebook-share" href="" data-link="http://earlymanecards.com/" target="_BLANK">
 							<img src="/images/fb.png" alt="fb" class="fb-icon">
 						</a>
 					</li>

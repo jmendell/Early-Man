@@ -11,7 +11,7 @@
 	<!-- for Facebook -->          
 	<meta property="og:title" content="Early Man - Ecard Generator" />
 	<meta property="og:type" content="video.movie" />
-	<meta property="og:image" content="http://earlymanecards.com/images/share-image.jpg" />
+	<meta property="og:image" content="/images/earlyman-share-graphic.jpg" />
 	<meta property="og:url" content="http://earlymanecards.com/" />
 	<meta property="og:description" content="Early Man - Ecard Generator. Send a holiday card from the stone age" />
 	<!-- for Twitter -->          
@@ -127,7 +127,16 @@
 				$('.tagline').addClass('animate');
 				$('.get-started').addClass('animate');
 				$('footer').addClass('animate');
+
+				jQuery( document ).on( 'click', '#facebook-share', function() {
+					var link = jQuery(this).data('link');
+						FB.ui({
+						method: 'share',
+						display: 'popup',
+						href: link,
+					}, function(response){});
+				});
 			});
-		</script>
+	</script>
 </body>
 </html>
