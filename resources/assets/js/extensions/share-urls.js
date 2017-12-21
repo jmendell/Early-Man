@@ -11,7 +11,7 @@
 				var socialProps = {};
 					socialProps.title = "Early Man";
 					socialProps.description = "Early Man - Ecard Generator";
-					socialProps.url = "54.208.62.166";
+					socialProps.url = "http://earlymanecards.com/";
 
 				var _o = {},
 					$shareUrls = null
