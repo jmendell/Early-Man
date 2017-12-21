@@ -39,7 +39,7 @@
 						twShareUrl += 'https://twitter.com/intent/tweet?';
 						//text
 						twShareUrl += 'text=';
-						twShareUrl += encodeURIComponent('Check out my Ecard from the Early Man Movie');
+						twShareUrl += encodeURIComponent('Check out my EARLY MAN holiday Ecard');
 						//home url
 						twShareUrl += '&url=';
 						twShareUrl += encodeURIComponent(url);
@@ -48,24 +48,6 @@
 
 				},
 
-				_PUrl = function (url) {
-
-					var pShareUrl = '';
-						//base url
-						pShareUrl += 'https://www.pinterest.com/pin/create/button/';
-						//home url
-						pShareUrl += '?url=';
-						pShareUrl += encodeURIComponent(socialProps.url);
-						//link to image
-						pShareUrl += '&media=';
-						pShareUrl += encodeURIComponent(url);
-						//description
-						pShareUrl += '&description=';
-						pShareUrl += encodeURIComponent('Check out my Ecard from #theshackmovie in theaters March 3rd');
-
-					$('#pinterest-share').attr('href', pShareUrl);
-
-				},
 
 				_BindEvents = function () {
 					$(window).on('presentation', function (){
