@@ -33,19 +33,19 @@
 					});
 				},
 
-				_WindowResize = function () {
-					jQuery(document).ready(function($){
-						var backgroundHeight = '';
-						function responsiveBackground(){
-							backgroundHeight = $('.dynamic-content').height() + 50; 
-							$('body').css('height', backgroundHeight);
-						}
-						responsiveBackground();
-						$(window).resize(function(){
-							responsiveBackground();
-						});
-					});
-				},
+				// _WindowResize = function () {
+				// 	jQuery(document).ready(function($){
+				// 		var backgroundHeight = '';
+				// 		function responsiveBackground(){
+				// 			backgroundHeight = $('.dynamic-content').height() + 50; 
+				// 			$('body').css('height', backgroundHeight);
+				// 		}
+				// 		responsiveBackground();
+				// 		$(window).resize(function(){
+				// 			responsiveBackground();
+				// 		});
+				// 	});
+				// },
 
 
 				_RemoveLoadingClass = function () {
@@ -64,7 +64,7 @@
 						_RemoveLoadingClass();
 						_BodyClass(_o.url);
 						registerEvent(_o.url);
-						_WindowResize();
+						// _WindowResize();
 					}).fadeIn(500);
 				},
 

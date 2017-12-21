@@ -26,9 +26,14 @@ body{
 	}
 	&.home{
 		overflow:hidden;
+		@include media($mobile){
+			height:100vh;
+		}
 	}
-	&.presentation{
-		overflow:hidden;
+	&.choose{
+		footer{
+			position:fixed;
+		}
 	}
 	&.create{
 		overflow:hidden;

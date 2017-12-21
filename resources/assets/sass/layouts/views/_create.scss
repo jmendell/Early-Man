@@ -1,5 +1,5 @@
 section.create{
-	padding-top:200px;
+	padding-top:100px;
 	padding-bottom:50px;
 	color:$color-white;
 	@include media($mobile){
@@ -7,8 +7,48 @@ section.create{
 		margin:0 auto;
 		padding:100px 0;
 	}
+	.lord-nooth{
+		position:absolute;
+		width:500px;
+		right:50px;
+		bottom:-75px;
+		@include media($tablet-landscape){
+			width:450px;
+		}
+		@include media($tablet){
+			display:none;
+		}
+	}
+	.desktop-size{
+		@include media($mobile){
+			display:none;
+		}
+	}
+	.textbox-col-mobile{
+		@include media($desktop){
+			display: none;
+		}
+		@include media($tablet){
+			display: none;
+		}
+		@include media($mobile){
+			display: block;
+		}
+	}
 	.row{
 		position:relative;
+		.center-text{
+			width:50% !important;
+			@include media($tablet){
+				width:100% !important;
+			}
+		}
+		.col-6:last-child{
+			width:30%;
+			@include media($mobile){
+				width:100%;
+			}
+		}
 	}
 	#reset-image{
 		font-size:0.9em;
@@ -29,6 +69,7 @@ section.create{
 	}
 	.canvas-container{
 		margin:0 auto;
+		margin-bottom: 15px;
 	}
 	h3{
 		font-size:1.5em;
@@ -47,6 +88,10 @@ section.create{
 	.field-group{
 		margin-bottom:15px;
 		letter-spacing:1px;
+		@include media($tablet){
+			width: 90%;
+			margin:0 auto;
+		}
 		&:last-child{
 			margin-bottom:25px;
 		}
@@ -63,6 +108,8 @@ section.create{
 	}
 	.form-wrap{
 		margin-bottom:25px;
+		width: 75%;
+		margin:0 auto;
 	}
 	.progress-section{
 		display:none;
@@ -84,7 +131,7 @@ section.create{
 		font-family:$secondary;
 		color:$color-white;
 		border:1px solid $color-white;
-		background:rgba(97, 103, 124, 0);
+		background:rgba(10, 38, 79, .6);
 		height:70px;
 		overflow:hidden;
 		&:focus{

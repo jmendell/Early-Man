@@ -3,7 +3,7 @@ section.choose{
 	max-width:$desktop-large-inner;
 	margin:0 auto;
 	@include media($tablet){
-		padding:100px 0;
+		padding-top: 25px;
 	}
 	.mammoth-container{
 		display: flex;
@@ -15,7 +15,7 @@ section.choose{
 		z-index: -1;
 		// bottom:-500px;
 		.mammoth{
-			width:400px;
+			width:650px;
 			height:100%;
 		}
 	}
@@ -32,7 +32,7 @@ section.choose{
 			justify-content: center;
 			align-items:center;
 			h1{
-				font-size:1.5rem;
+				font-size:2.4rem;
 				margin:0 10px;
 				@include media($mobile){
 					margin-bottom:25px;
@@ -51,8 +51,8 @@ section.choose{
 		justify-content: center;
 		position:relative;
 		z-index: 1;
-		max-height: 600px;
-		overflow-y:scroll;
+		// max-height: 600px;
+		// overflow-y:scroll;
 	}
 	.card-container{
 	    height: 275px;
@@ -102,5 +102,4 @@ section.choose{
 
 body.choose{
 	background-color: #040C2B;
-	background-size:initial;
 }

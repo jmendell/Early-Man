@@ -1,8 +1,8 @@
 <section class="choose loading">
-	<div class="mammoth-container">
+<!-- 	<div class="mammoth-container">
 		<img src="/images/left-mammoth.png" alt="mammoth" class="mammoth">
 		<img src="/images/right-mammoth.png" alt="mammoth" class="mammoth">
-	</div>
+	</div> -->
 	<div class="title-container" id="js_choose_title">
 		<a href="/" class="home-link">
 			<img src="/images/title-treatment.png" alt="logo" class="choose-logo">

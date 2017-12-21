@@ -41,7 +41,20 @@
 		}
 		a{
 			color:#F4D7B6;
-			font-size:.8em;
+			font-size:1.1em;
+		}
+	}
+	.legal-row{
+		display: flex;
+		align-items:center;
+		justify-content: content;
+		.legal-logo{
+			height:75px;
+			margin:0 15px;
+			cursor: pointer;
+		}
+		.studiocanal-logo{
+			height:30px;
 		}
 	}
 	.copyright{

@@ -89,14 +89,14 @@
 	<script src="{{ elixir('js/main.js') }}"></script>
 	<script src="{{ elixir('js/application.js') }}"></script>
 	<!-- Animation add class script -->
-	<script>
-		jQuery(document).ready(function($){
-			$('.title-content').addClass('animate');
-			$('.cards').addClass('animate');
-			$('.tagline').addClass('animate');
-			$('.get-started').addClass('animate');
-			$('footer').addClass('animate');
-		});
-	</script>
+		<script>
+			jQuery(document).ready(function($){
+				$('.title-content').addClass('animate');
+				$('.cards').addClass('animate');
+				$('.tagline').addClass('animate');
+				$('.get-started').addClass('animate');
+				$('footer').addClass('animate');
+			});
+		</script>
 </body>
 </html>
