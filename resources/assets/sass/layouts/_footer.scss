@@ -1,5 +1,5 @@
 footer{
-	@include position(absolute, null null null 50%);
+	@include position(fixed, null null null 50%);
 	@include transform(translateX(-50%));
 	bottom:-250px;
 	transition:1s;

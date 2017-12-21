@@ -15,17 +15,25 @@ body{
 	padding:0;
 	margin:0;
 	background:$color-gray-bg;
-	background-color:#AB0003;
+	background-color:#000;
 	background-size:cover;
 	background-repeat:no-repeat;
 	height:100%;
 	min-height:100%;
+	@include media($desktop-short){
+		background-size:initial;
+	}
+	@include media($tablet-landscape){
+		background-size:initial;
+	}
 	@include media($mobile){
 		overflow-x:hidden;
 		height:auto;
 	}
 	&.home{
-		overflow:hidden;
+		@include media($desktop){
+			overflow:hidden;
+		}
 		@include media($mobile){
 			height:100vh;
 		}
@@ -37,6 +45,15 @@ body{
 	}
 	&.create{
 		overflow:hidden;
+		@include media($desktop-short){
+			overflow:initial;
+		}
+		@include media($tablet-landscape){
+			overflow:initial;
+		}
+		@include media($tablet){
+			overflow:initial;
+		}
 	}
 }
 

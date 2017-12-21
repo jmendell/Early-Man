@@ -5,15 +5,18 @@ section.create{
 	@include media($mobile){
 		width:$mobile-inner;
 		margin:0 auto;
-		padding:100px 0;
+		padding-top:100px;
 	}
 	.lord-nooth{
 		position:absolute;
 		width:500px;
 		right:50px;
 		bottom:-75px;
+		@include media($desktop-short){
+			width:35%;
+		}
 		@include media($tablet-landscape){
-			width:450px;
+			width:35%;
 		}
 		@include media($tablet){
 			display:none;
