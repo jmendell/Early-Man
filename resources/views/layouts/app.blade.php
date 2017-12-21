@@ -13,15 +13,15 @@
 	<meta property="og:type" content="video.movie" />
 	<meta property="og:image" content="" />
 	<meta property="og:url" content="http://earlymanecards.com/" />
-	<meta property="og:description" content="Early Man - Ecard Generator" />
+	<meta property="og:description" content="Early Man - Ecard Generator. Send a holiday card from the stone age" />
 	<!-- for Twitter -->          
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Early Man - Ecard Generator" />
 	<meta name="twitter:site" content="http://earlymanecards.com/">
-	<meta name="twitter:description" content="Early Man Ecard Generator" />
+	<meta name="twitter:description" content="Early Man Ecard Generator. Send a holiday card from the stone age." />
 	<meta name="twitter:image" content="" />
 	<link rel="icon" href="images/earlyman_fav_icon.png" type="image/x-icon" />
-	<title>Early Man</title>
+	<title>Early Man - Ecard Generator</title>
 	<link rel="canonical" href="">
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
@@ -41,6 +41,7 @@
 	</script>
 </head>
 <body class="@yield('bodyClass')" style="background-image:url('/images/earlyman-bg.jpg');">
+
 	<main id="main">
 
 		@yield('content')
@@ -57,6 +58,17 @@
 			</div>
 			<div class="row">
 				<img src="/images/not-rated.png" class="rating" alt="rating">
+			</div>
+			<div class="row legal-row">
+				<a href="http://www.aardman.com/" target="_BLANK" class="logo-link">
+					<img src="/images/aardman-logo.png" alt="logo" class="legal-logo">
+				</a>
+				<a href="http://www.bfi.org.uk/" target="_BLANK" class="logo-link">
+					<img src="/images/fflf-logo.png" alt="logo" class="legal-logo">
+				</a>
+				<a href="http://www.studiocanal.co.uk/" target="_BLANK" class="logo-link">
+					<img src="/images/studiocanal-logo.png" alt="logo" class="legal-logo studiocanal-logo">
+				</a>
 			</div>
 			<ul class="legal-links">
 				<li>
@@ -89,7 +101,7 @@
 	<script src="{{ elixir('js/main.js') }}"></script>
 	<script src="{{ elixir('js/application.js') }}"></script>
 	<!-- Animation add class script -->
-		<script>
+	<script>
 			jQuery(document).ready(function($){
 				$('.title-content').addClass('animate');
 				$('.cards').addClass('animate');

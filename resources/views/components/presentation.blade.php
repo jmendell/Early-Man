@@ -25,6 +25,10 @@
 					<input type="submit" value="Send your Ecard">
 				</form>
 			</div>
+			<fieldset>
+				<label for="subscribe">I'd like to receive updates about Early Man</label>
+				<input type="checkbox" name="subscribe" id="subscribe">
+			</fieldset>
 			<div class="share share-download">
 				<h3>Download your Card</h3>
 				<a href="{{ $url }}" download="the-shack-ecard.jpg" target="_BLANK" class="cta-button">Download</a>

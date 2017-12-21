@@ -3847,6 +3847,13 @@ body.choose .character-cluster {
   display: none;
 }
 
+@media screen and (max-width: 600px) {
+  body.choose footer {
+    position: relative;
+    margin-top: 10px;
+  }
+}
+
 section.home {
   max-width: 1200px;
   padding-top: 5%;
@@ -4052,6 +4059,12 @@ section.choose .title-container .title-content h1 {
 
 section.choose .title-container .title-content img {
   height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  section.choose .title-container .title-content img {
+    display: none;
+  }
 }
 
 section.choose .row {
@@ -4308,28 +4321,6 @@ section.create .form-wrap {
   margin: 0 auto;
 }
 
-section.create .progress-section {
-  display: none;
-}
-
-section.create .progress-section h4 {
-  margin-bottom: 10px;
-  font-family: "Open Sans";
-}
-
-section.create .progress {
-  background: #fff;
-  height: 5px;
-  width: 100%;
-}
-
-section.create .progress .progress-inner {
-  transition: .5s;
-  background: #0D2842;
-  height: 100%;
-  width: 15%;
-}
-
 section.create textarea {
   font-family: "Open Sans";
   color: #fff;
@@ -4368,6 +4359,28 @@ section.create .canvas-container #c {
 section.create .canvas-container .upper-canvas {
   height: inherit !important;
   width: inherit !important;
+}
+
+section.create .progress-section {
+  display: none;
+}
+
+section.create .progress-section h4 {
+  margin-bottom: 10px;
+  font-family: "Open Sans";
+}
+
+section.create .progress {
+  background: #fff;
+  height: 5px;
+  width: 100%;
+}
+
+section.create .progress .progress-inner {
+  transition: .5s;
+  background: #0D2842;
+  height: 100%;
+  width: 15%;
 }
 
 section.presentation {
@@ -4589,6 +4602,7 @@ section.presentation .share-social ul li a svg {
   align-items: center;
   -webkit-box-pack: content;
   justify-content: content;
+  margin: 15px 0;
 }
 
 #legal .legal-row .legal-logo {

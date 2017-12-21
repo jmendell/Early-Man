@@ -47,4 +47,10 @@ body.choose{
 	.character-cluster{
 		display:none;
 	}
+	footer{
+		@include media($mobile){
+			position:relative;
+			margin-top: 10px;
+		}
+	}
 }

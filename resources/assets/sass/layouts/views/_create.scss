@@ -114,22 +114,6 @@ section.create{
 		width: 75%;
 		margin:0 auto;
 	}
-	.progress-section{
-		display:none;
-		h4{
-			margin-bottom:10px;
-			font-family: $secondary;
-		}
-	}
-	.progress{
-		background:$color-white;
-		@include size(100% 5px);
-		.progress-inner{
-			transition:.5s;
-			background:$color-brand;
-			@include size(15% 100%);
-		}
-	}
 	textarea{
 		font-family:$secondary;
 		color:$color-white;
@@ -162,6 +146,22 @@ section.create{
 			// pointer-events:none;
 			height:inherit !important;
 			width:inherit !important;
+		}
+	}
+	.progress-section{
+		display:none;
+		h4{
+			margin-bottom:10px;
+			font-family: $secondary;
+		}
+	}
+	.progress{
+		background:$color-white;
+		@include size(100% 5px);
+		.progress-inner{
+			transition:.5s;
+			background:$color-brand;
+			@include size(15% 100%);
 		}
 	}
 }
