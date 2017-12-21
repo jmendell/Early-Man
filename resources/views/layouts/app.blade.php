@@ -11,7 +11,7 @@
 	<!-- for Facebook -->          
 	<meta property="og:title" content="Early Man - Ecard Generator" />
 	<meta property="og:type" content="video.movie" />
-	<meta property="og:image" content="/images/earlyman-share-graphic.jpg" />
+	<meta property="og:image" content="http://earlymanecards.com/images/earlyman-share-graphic.jpg" />
 	<meta property="og:url" content="http://earlymanecards.com/" />
 	<meta property="og:description" content="Early Man - Ecard Generator. Send a holiday card from the stone age" />
 	<!-- for Twitter -->          
