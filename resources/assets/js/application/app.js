@@ -47,7 +47,7 @@ $app.drawBase = function () {
 }
 
 $app.bindInput = function () {
-	$('#content-input').on('keyup', function(){
+	$('#content-input').on('keyup touchend', function(){
 		if (containsProfanity($(this).val())) {
 			$app.updateText('Innapropriate language');
 		}else{

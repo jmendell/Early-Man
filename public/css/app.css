@@ -4109,21 +4109,17 @@ section.choose .card-item {
   transform: translateY(-50%) translateX(-50%);
 }
 
-@media screen and (max-width: 900px) {
-  section.choose .card-item {
-    width: 50%;
-  }
-}
-
 @media screen and (max-width: 600px) {
   section.choose .card-item {
-    width: 100%;
+    margin: 0 auto;
     float: none;
   }
 }
 
-section.choose .card-item:hover .info {
-  opacity: 1;
+@media screen and (min-width: 901px) {
+  section.choose .card-item:hover .info {
+    opacity: 1;
+  }
 }
 
 section.choose .card-item .card-inner {

@@ -70,15 +70,17 @@ section.choose{
 		@include position(absolute, 50% null null 50%);
 		@include transform(translateY(-50%) translateX(-50%));
 		@include media($tablet){
-			width:50%;
+			// width:50%;
 		}
 		@include media($mobile){
-			width:100%;
+			margin:0 auto;
 			float:none;
 		}
-		&:hover{
-			.info{
-				opacity:1;
+		@include media($desktop){
+			&:hover{
+				.info{
+					opacity:1;
+				}
 			}
 		}
 		.card-inner{
