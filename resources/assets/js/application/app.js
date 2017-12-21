@@ -12,7 +12,7 @@ $app.init = function () {
 	$app.design = $('body').data('design'),
 	$app.text = new fabric.Textbox('', {
 		fontSize: 36,
-		fontFamily:"Open Sans"
+		fontFamily:"EarlyMan-Regular"
 	});
 	$app.card = executeFunctionByName('cards.card' + $app.design, $app);
 	$app.placeholder = $('#content-input').val(),
