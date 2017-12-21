@@ -29,7 +29,7 @@ class SendCard extends Mailable
     public function build()
     {
         return $this->from($this->data['from'])
-                    ->subject("You've received a holiday Ecard from The Shack Movie")
+                    ->subject("You've received a holiday Ecard from The Early Man Movie")
                     ->view('emails.sendcard')->with([
                         'to' => $this->data['to'],
                         'from' => $this->data['from'],
