@@ -20,10 +20,6 @@
 						<label for="from">From:</label>
 						<input type="email" name="from" placeholder="Enter your email">
 					</div>
-					<fieldset>
-						<label for="subscribe">I'd like to receive updates about Early Man</label>
-						<input type="checkbox" name="subscribe" id="subscribe">
-					</fieldset>
 					<input type="hidden" name="image" value="{{ $url }}">
 					{{ csrf_field() }}
 					<input type="submit" value="Send your Ecard">
