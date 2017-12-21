@@ -17,7 +17,7 @@
 						<input type="email" name="to" placeholder="Email">
 					</div>
 					<div class="flex-form-group">
-						<label for="from">From:</label>
+						<label for="from">FROM:</label>
 						<input type="email" name="from" placeholder="Enter your email">
 					</div>
 					<input type="hidden" name="image" value="{{ $url }}">

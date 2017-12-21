@@ -360,7 +360,7 @@
 				_HandleResponse = function (res) {
 					var notification = $('.email-notification');
 					if (res == '1') {
-						notification.html('Your E-Card has been sent. Send again?');
+						notification.html('YOUR ECARD HAS BEEN SENT. <a href="/">SEND ANOTHER?</a>');
 						notification.slideDown();
 					}else {
 						notification.html('There was an issue sending your E-Card. Please try again.');
