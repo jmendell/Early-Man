@@ -3267,7 +3267,7 @@ img {
 
 .cta-button, input[type="submit"] {
   display: inline-block;
-  background: rgba(97, 103, 124, 0.8);
+  background: rgba(10, 38, 79, 0.8);
   padding: 0.8em 4em 0.6em 4em;
   color: #fff;
   text-transform: uppercase;
@@ -3281,7 +3281,7 @@ img {
 }
 
 .cta-button:hover, input[type="submit"]:hover {
-  background: #61677c;
+  background: #0a264f;
 }
 
 .cta-button.alt, input[type="submit"].alt {
@@ -3321,11 +3321,11 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   appearance: none;
   width: 100%;
   appearance: none;
-  background: rgba(97, 103, 124, 0.8);
+  background: rgba(10, 38, 79, 0.8);
   color: #fff;
   font-size: .9em;
   padding: .8em 1em;
-  border: none;
+  border: 2px solid #fff;
   font-family: "EarlyMan-Regular";
 }
 
@@ -3405,6 +3405,7 @@ input[type="submit"] {
   display: block;
   width: 100%;
   padding: 0.8em 0 0.6em 0;
+  background: rgba(10, 38, 79, 0.8);
   border-radius: none;
   font-size: .9rem;
 }

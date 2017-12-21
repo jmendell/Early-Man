@@ -1,6 +1,6 @@
 .cta-button, input[type="submit"]{
 	display:inline-block;
-	background:rgba(97, 103, 124, .8);
+	background:rgba(10, 38, 79, .8);
 	padding:0.8em 4em 0.6em 4em;
 	color:$color-white;
 	text-transform:uppercase;
@@ -12,7 +12,7 @@
 	cursor:pointer;
 	font-family:$primary;
 	&:hover{
-		background:rgba(97, 103, 124, 1);
+		background:rgba(10, 38, 79, 1);
 	}
 	&.alt{
 		border:none;
