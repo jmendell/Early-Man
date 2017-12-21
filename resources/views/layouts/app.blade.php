@@ -115,10 +115,10 @@
 		</div>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="/js/lib/fabric.min.js"></script>
+	<script src="/js/lib/fabric.min.js?v=1"></script>
 	<script src="/js/lib/js.cookie.js"></script>
-	<script src="{{ elixir('js/main.js') }}"></script>
-	<script src="{{ elixir('js/application.js') }}"></script>
+	<script src="{{ elixir('js/main.js?v=1') }}"></script>
+	<script src="{{ elixir('js/application.js?v=1') }}"></script>
 	<!-- Animation add class script -->
 	<script>
 			jQuery(document).ready(function($){
