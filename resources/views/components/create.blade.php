@@ -11,7 +11,7 @@
 			<canvas id="c"></canvas>
 			<div class="form-wrap desktop-size">
 				<div class="field-group">
-					<h3>ENTER YOUR MESSAGE</h3>
+					<p>ENTER YOUR MESSAGE</p>
 					<span class="character-amount">(LIMIT 50 CHARACTERS)</span>
 					<textarea id="content-input" rv-text="content">To: You
 From: Me</textarea>
