@@ -106,7 +106,7 @@
 							<span class="cta-button alt">Send This Card</span>
 						</div>
 					</div>
-					<img src="/images/card-thumbs/em-card-8-sm.png" class="card" alt="ecard design">
+					<img src="/images/card-thumbs/em-card-8-sm.jpg" class="card" alt="ecard design">
 				</div>
 			</a>
 		</div>
