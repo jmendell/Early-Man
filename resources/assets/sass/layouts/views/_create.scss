@@ -22,11 +22,6 @@ section.create{
 			display:none;
 		}
 	}
-	.desktop-size{
-		@include media($mobile){
-			display:none;
-		}
-	}
 	.textbox-col-mobile{
 		@include media($desktop){
 			display: none;

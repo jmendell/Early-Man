@@ -4194,12 +4194,6 @@ section.create .lord-nooth {
   }
 }
 
-@media screen and (max-width: 600px) {
-  section.create .desktop-size {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 901px) {
   section.create .textbox-col-mobile {
     display: none;
