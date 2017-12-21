@@ -30,6 +30,9 @@ footer{
 			margin:0 auto;
 			position:relative;
 			z-index:0;
+			@include media($mobile){
+				display: none;
+			}
 		}
 	}
 }

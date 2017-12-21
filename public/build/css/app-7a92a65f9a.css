@@ -3839,6 +3839,12 @@ footer .footer-container .character-cluster {
   z-index: 0;
 }
 
+@media screen and (max-width: 600px) {
+  footer .footer-container .character-cluster {
+    display: none;
+  }
+}
+
 body.create footer .character-cluster, body.presentation footer .character-cluster {
   display: none;
 }
@@ -3896,6 +3902,12 @@ section.home .content-container .title-content.animate {
 
 section.home .content-container .title-content .title .logo {
   width: 370px;
+}
+
+@media screen and (max-width: 600px) {
+  section.home .content-container .title-content .title .logo {
+    width: 275px;
+  }
 }
 
 section.home .content-container .content {

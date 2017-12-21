@@ -27,6 +27,9 @@ section.home{
 			.title{
 				.logo{
 					width: 370px;
+					@include media($mobile){
+						width:275px;
+					}
 				}
 			}
 		}
