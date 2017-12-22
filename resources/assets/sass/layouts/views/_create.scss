@@ -106,8 +106,15 @@ section.create{
 	}
 	.form-wrap{
 		margin-bottom:25px;
-		width: 75%;
 		margin:0 auto;
+		@include media($desktop-large){
+			width: 75%;
+		}
+		&.desktop-size{
+			@include media($desktop){
+				width:60%;
+			}
+		}
 	}
 	textarea{
 		font-family:$secondary;
@@ -126,8 +133,8 @@ section.create{
 	}
 	.canvas-container{
 		// pointer-events:none;
-		height:400px !important;
-		width:400px !important;
+		height:350px !important;
+		width:350px !important;
 		@include media($mobile){
 			height:300px !important;
 			width:300px !important;

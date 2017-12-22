@@ -4319,8 +4319,19 @@ section.create .flex-set input {
 
 section.create .form-wrap {
   margin-bottom: 25px;
-  width: 75%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1300px) {
+  section.create .form-wrap {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  section.create .form-wrap.desktop-size {
+    width: 60%;
+  }
 }
 
 section.create textarea {
@@ -4342,8 +4353,8 @@ section.create .counter {
 }
 
 section.create .canvas-container {
-  height: 400px !important;
-  width: 400px !important;
+  height: 350px !important;
+  width: 350px !important;
 }
 
 @media screen and (max-width: 600px) {
