@@ -27,7 +27,7 @@
 						method: "GET",
 						url: "/facebook/login"
 					}).done(function( res ) {
-						$('#facebook_share').attr('href', res);
+						$('#facebook_share').attr('link', res);
 					});
 
 				},
