@@ -43,10 +43,6 @@
 						//home url
 						twShareUrl += '&url=';
 						twShareUrl += encodeURIComponent(url);
-						twShareUrl += 'text=';
-						twShareUrl += encodeURIComponent('Send your own EARLY MAN Ecard.');
-						twShareUrl += '&url=';
-						twShareUrl += encodeURIComponent('http://earlymanecards.com/');
 
 					$('#twitter-share').attr('href', twShareUrl);
 
