@@ -441,7 +441,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     
-                                        <img align="center" alt="EARLY MAN in theaters February 16th" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/66b5877a-65ab-4fd3-b908-5b7b975c0117.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: block !important; vertical-align: bottom;color:#ffffff;fontpsize: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
+                                        <img align="center" alt="EARLY MAN in theaters February 16th" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/66b5877a-65ab-4fd3-b908-5b7b975c0117.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color:#ffffff;fontpsize: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
                                         
                                     
                                 
@@ -511,7 +511,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     <a href="http://earlymanecards.com">
-                                        <img align="center" alt="SEND A HOLIDAY CARD FROM THE STONE AGE. GET STARTED. CLICK HERE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/cca2ef5f-c0ee-482b-a508-6e754d5dc48d.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: block !important; vertical-align: bottom;color: #ffffff;font-size: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
+                                        <img align="center" alt="SEND A HOLIDAY CARD FROM THE STONE AGE. GET STARTED. CLICK HERE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/cca2ef5f-c0ee-482b-a508-6e754d5dc48d.jpg" width="600" style="background-color: #d62500;max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color: #ffffff;font-size: 48px;font-family: Helvetica, Arial, sans-serif" class="mcnImage">
                                     </a>
                                     
                                 
@@ -530,7 +530,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     <a href="https://www.youtube.com/watch?v=oZM8TwW8_jU&feature=youtu.be">
-                                        <img align="center" alt="WATCH THE TRAILER" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/474bfe6b-4984-4d47-9656-ebf11ebdc21a.jpg" width="600" style="background-color: #050b0d;max-width:600px; padding-bottom: 0; display: block !important; vertical-align: bottom;color:#ffffff;font-size: 56px;font-family:Helvetica, Arial, sans-serif" class="mcnImage">
+                                        <img align="center" alt="WATCH THE TRAILER" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/474bfe6b-4984-4d47-9656-ebf11ebdc21a.jpg" width="600" style="background-color: #050b0d;max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color:#ffffff;font-size: 56px;font-family:Helvetica, Arial, sans-serif" class="mcnImage">
                                     </a>
                                     
                                 
@@ -550,7 +550,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     
-                                        <img align="center" alt="JOIN THE TRIBE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/a1bbd566-b45f-4474-8600-97666539301b.jpg" width="600" style="max-width:600px; padding-bottom: 0; display: block !important; vertical-align: bottom;color: #f6dec3;background:#000000;font-size: 48px;font-family:Helvetica, Arial, sans-serif;" class="mcnImage">
+                                        <img align="center" alt="JOIN THE TRIBE" src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/a1bbd566-b45f-4474-8600-97666539301b.jpg" width="600" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;color: #f6dec3;background:#000000;font-size: 48px;font-family:Helvetica, Arial, sans-serif;" class="mcnImage">
                                     
                                 
                             </td>
@@ -607,7 +607,7 @@
                                                  
                                                 <tbody><tr>
                                                     <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:9px;">
-                                                        <a href="http://twitter.com/earlymanmovie" target="_blank"><img src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/9851fd6d-730d-4e61-b36c-59e2a8a2a06b.jpg" alt="t" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;color: #fff;font-size: 24px;font-family: Helvetica, Arial, sans-serif"></a>
+                                                        <a href="http://twitter.com/earlymanmovie" target="_blank"><img src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/9851fd6d-730d-4e61-b36c-59e2a8a2a06b.jpg" alt="t" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:inline;color: #fff;font-size: 24px;font-family: Helvetica, Arial, sans-serif"></a>
                                                     </td>
                                                 </tr>
                                                 
@@ -627,7 +627,7 @@
                                                  
                                                 <tbody><tr>
                                                     <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:9px;">
-                                                        <a href="https://facebook.com/EarlyManUS" target="_blank"><img src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/8a26b8e2-7fa5-4155-8cfc-60ba9d23e5db.jpg" alt="f" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;color: #fff;font-size: 24px;font-family: Helvetica, Arial, sans-serif"></a>
+                                                        <a href="https://facebook.com/EarlyManUS" target="_blank"><img src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/8a26b8e2-7fa5-4155-8cfc-60ba9d23e5db.jpg" alt="f" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:inline;color: #fff;font-size: 24px;font-family: Helvetica, Arial, sans-serif"></a>
                                                     </td>
                                                 </tr>
                                                 
@@ -647,7 +647,7 @@
                                                  
                                                 <tbody><tr>
                                                     <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:9px;">
-                                                        <a href="http://instagram.com/earlymanmovie" target="_blank"><img src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/7782f16e-8168-4ecf-8eda-d74d37f8538d.jpg" alt="i" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;color: #fff;font-size: 24px;font-family: Helvetica, Arial, sans-serif"></a>
+                                                        <a href="http://instagram.com/earlymanmovie" target="_blank"><img src="https://gallery.mailchimp.com/5425eb57e3493299f4c59c4e2/images/7782f16e-8168-4ecf-8eda-d74d37f8538d.jpg" alt="i" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:inline;color: #fff;font-size: 24px;font-family: Helvetica, Arial, sans-serif"></a>
                                                     </td>
                                                 </tr>
                                                 
