@@ -128,7 +128,7 @@
 				$('.get-started').addClass('animate');
 				$('footer').addClass('animate');
 
-				jQuery( document ).on( 'click', '#facebook-share', function() {
+				jQuery( document ).on( 'click', '#facebook_share', function() {
 					var link = jQuery(this).data('link');
 						FB.ui({
 						method: 'share',
