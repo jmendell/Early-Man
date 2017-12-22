@@ -4380,6 +4380,12 @@ section.create .progress-section {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 901px) {
+  section.create .progress-section {
+    width: 60%;
+  }
+}
+
 section.create .progress-section h4 {
   margin-bottom: 10px;
   font-family: "Open Sans";

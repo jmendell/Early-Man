@@ -56,7 +56,6 @@
 
 						_FbUrl();
 						_TwUrl(img);
-						_PUrl(img);
 
 					});
 				},
