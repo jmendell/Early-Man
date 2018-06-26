@@ -15,3 +15,4 @@
 
 - When creating a new site within Forge, connect your domain and Bitbucket prodution branch in order to launch and deploy changes. (the original site created is default, and you can connect master branch to see changes that are not connected to the live domain.)
 	-As far as the domain goes, point the A-record and CNAME to your server IP address. This is done in your DNS Manager within your domain provider account. 
+# Early-Man-Ecard
